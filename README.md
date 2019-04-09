@@ -36,7 +36,15 @@ In diesem Teil der App gibt es 10 Fragen zum Klimawandel mit jeweils drei Antwor
 
 ![bsp prüfung](Bilder.exe/prüfung.PNG)
 
-(BILD VON Test1, FFRAGE 1 UND RICHTIG)
+(BILD VON Test1, Endescreen)
+
+In dieser Ebene kann der Spieler sich in 5 Fragen selber testen, ob er genug für den Klimaschutz tut. Oben in Screen steht die Frage, darunter die Antwortmöglichkeiten in Form von Bildern und darunter wiederum der Fuchs, der sich mithilfe der Pfeiltasten zum jeweiligen Bild steuern lässt.
+Jenachdem, welche Antwort gewählt wird, wird dem Score 1 (gut für das Klima) oder 2 Punkte (schlecht für das Klima) hinzugefügt.
+Nach den 5 Fragen wird dem Spieler sein Endergebnis und die entsprechende Bewertung angezeigt. 
+
+### Die Spielebene
+
+
 
 ## Die Intention des Spiels <a name="Intention"></a>
 
