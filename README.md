@@ -40,13 +40,13 @@ Das Programmieren auf Code.org basiert auf Java, ist aber durch die Blocks, die 
 
 Ein Code.org-Projekt teilt sich in drei Ebenen auf, den Code-, Design- und den Data-Editor. Letzteres haben wir für unsere App nicht verwendet, da er genutzt werden kann, um Daten wie Highscores außerhalb der App zu speichern.
 
-Der Code-Editor:
+# Der Code-Editor:
 
 ![bsp code2](Bilder.exe/code2.PNG)
 
 In dem Block Editor kann man per Drag and Drop verschiedene Blocks von der linken Spalte aus den verschiedenen Kategorien die rechte Fläche ziehen. Diese Blocks kann man beliebig miteinander kombinieren und bei einigen selber bestimmte Befehle oder Dinge wie Defintionen und Calls dazutragen. Man kann verschiedene Screens miteinander verknüpfen, die Bewegung der Objekte programmieren und entscheiden, was beim Anklicken bestimmter Buttons, Labels oder anderer Objekte passiert.
 
-Der Design-Editor:
+# Der Design-Editor:
 
 ![bsp design](Bilder.exe/design.PNG)
 
