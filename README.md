@@ -10,7 +10,7 @@
 * [Projektvorstellung](#projekt)
   * [Die Intention des Spiels](#Intention)
 * [Das Spiel selber programmieren](#dssp)
-  * [App Lab](#al)
+  * [App Lab - Code.org](#al)
   * [Erste Schritte](#erste)
   * [Das Spiel programmieren](#Spiel)
   * [Den Test programmieren](#Test)
@@ -26,7 +26,7 @@
 
 ## Das Spiel selber programmieren <a name="dssp"></a>
 
-## App Lab <a name="al"></a>
+## App Lab - Code.org <a name="al"></a>
 
 ![bsp applab](Bilder.exe/applab.png)
 
