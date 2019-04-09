@@ -22,6 +22,18 @@
 
 ## Projektvorstellung <a name="projekt"></a>
 
+Unser Projekt ist eine App, die wir mit App Lab-Code.org erstellt haben. Die App besteht aus einer Spiel-, Quiz- und Testebene, die unabhängig voneinander gespielt werden können und sich alle um das Thema Klimaschutz und Klimawandel drehen, damit der Nutzer auch etwas beim Spielen lernt. Man erreicht diese verschiedenen Ebenen vom Startscreen (siehe oben) aus, der das Fuchsland darstellt. Außerdem wird man von einem Fuchs durch die App begleitet.
+
+### Die Quizebene
+
+(BILD VON QUIZ FRAGE1, FFRAGE 1 UND RICHTIG)
+
+In diesem Teil der App gibt es 10 Fragen zum Klimawandel mit jeweils drei Antwortmöglichkeiten. Bei richtiger bzw. falscher Antwort wird man zum entsprechenden Screen weitergeleitet, wo es den passenden Erklärtext bzw. Ergänzungen zur richtigen Antwort gibt. Von dort aus kann man zur nächsten Frage weitergehen. SCORE?
+
+### Die Testebene
+
+(BILD VON Test1, FFRAGE 1 UND RICHTIG)
+
 ## Die Intention des Spiels <a name="Intention"></a>
 
 ## Das Spiel selber programmieren <a name="dssp"></a>
