@@ -51,11 +51,11 @@ Beim Spiel soll man innerhalb von 20 Sekunden so oft wie möglich auf eine Plast
 
 ![bsp spiel2](Bilder.exe/spiel2.PNG)
 
-Schafft man es, innerhalb der 20 Sekunden 20 Mal auf die Flasche zu klicken, ohne dabei 3 Leben zu verliere, erscheint der Screen, dass man gewonnen hat. Von dort aus kann man nochmal spielen oder ins Fuchsland zurückkehren:
+Schafft man es, innerhalb der 20 Sekunden mindestens 10 Mal auf die Flasche zu klicken, ohne dabei 3 Leben zu verliere, erscheint der Screen, dass man gewonnen hat. Von dort aus kann man nochmal spielen oder ins Fuchsland zurückkehren:
 
 ![bsp gewonnen](Bilder.exe/gewonnen.PNG)
 
-Wenn man aber nach den 20 Sekunden weniger als 20 Klicks geschafft hat oder alle 3 Leben verloren hat, wird einem der Verloren-Screen angezeigt. Von dort kann man genauso fortfahren wie beim Gewonnen-Screen.
+Wenn man aber nach den 20 Sekunden weniger als 10 Klicks geschafft hat oder alle 3 Leben verloren hat, wird einem der Verloren-Screen angezeigt. Von dort kann man genauso fortfahren wie beim Gewonnen-Screen.
 
 ![bsp verloren](Bilder.exe/verloren.PNG)
 
@@ -113,13 +113,15 @@ Trotzdem sollte schon ab Erstellen des ersten Screens jedes Objekt sinnvoll bena
 
 ## Das Spiel programmieren <a name="Spiel"></a>
 
+Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigentlichen Spiel gelangt. Mit dem Anklicken des Buttons startbs werden außerdem die Textlabels Score, Lives und timer benannt und definiert, sodass auf dem Screen Clicker diese durch bestimmte Ereignisse sich wie Variablen verhalten und geändert werden können.
+![bsp spielA](Bilder.exe/spielA.PNG)
+
 ![bsp gewonnen](Bilder.exe/gewonnen.PNG)
 
 ![bsp verloren](Bilder.exe/verloren.PNG)
 
 ![bsp spiel2](Bilder.exe/spiel2.PNG)
 
-![bsp spielA](Bilder.exe/spielA.PNG)
 
 ![bsp spielB](Bilder.exe/spielB.PNG)
 
