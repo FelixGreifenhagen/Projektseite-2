@@ -97,18 +97,15 @@ In dem Design Editor kann man Hintergründe, Images, Textlabels o.Ä. erstellen.
 
 ## Das Spiel programmieren <a name="Spiel"></a>
 
-![bsp spiel1](Bilder.exe/spiel1.PNG)
-
 
 ## Den Test programmieren <a name="Test"></a>
 
-![bsp test1](Bilder.exe/test1.PNG)
 
 ## Die Fragen <a name="Fragen1"></a>
 
 ## Das Quiz programmieren <a name="Quiz"></a>
 
-![bsp quiz1](Bilder.exe/quiz1.PNG)
+
 
 ## Die Fragen <a name="Fragen2"></a>
 
