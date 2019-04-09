@@ -34,7 +34,7 @@ In diesem Teil der App gibt es 10 Fragen zum Klimawandel mit jeweils drei Antwor
 
 ### Die Testebene
 
-![bsp test](Bilder.exe/test.PNG)
+![bsp test3](Bilder.exe/test3.PNG)
 
 (BILD VON Test1, Endescreen)
 
