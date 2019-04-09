@@ -113,7 +113,8 @@ Trotzdem sollte schon ab Erstellen des ersten Screens jedes Objekt sinnvoll bena
 
 ## Das Spiel programmieren <a name="Spiel"></a>
 
-Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigentlichen Spiel gelangt. Mit dem Anklicken des Buttons startbs werden außerdem die Textlabels Score, Lives und timer benannt und definiert, sodass auf dem Screen Clicker diese durch bestimmte Ereignisse sich wie Variablen verhalten und geändert werden können.
+Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigentlichen Spiel gelangt. Mit dem Anklicken des Buttons startbs werden außerdem die Textlabels Score, Lives und timer benannt und definiert, sodass auf dem Screen Clicker diese durch bestimmte Ereignisse sich wie Variablen verhalten und geändert werden können. Gleichzeitig wird Clicker initialisiert.
+
 ![bsp spielA](Bilder.exe/spielA.PNG)
 
 ![bsp gewonnen](Bilder.exe/gewonnen.PNG)
