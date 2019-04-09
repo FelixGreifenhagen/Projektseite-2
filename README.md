@@ -28,7 +28,7 @@
 
 ## App Lab - Code.org <a name="al"></a>
 
-![bsp applab](Bilder.exe/applab.png) ![bsp code](Bilder.exe/code.png)
+![bsp applab](Bilder.exe/applab.png) ![bsp code](Bilder.exe/code.PNG)
 
 Bevor man mit dem Programmieren des Spiels beginnt, sollte man sich erst mit dem Programm vertraut machen.
 
@@ -40,9 +40,9 @@ Das Programmieren auf Code.org basiert auf Java, ist aber durch die Blocks, die 
 
 Ein Code.org-Projekt teilt sich in drei Ebenen auf, den Code-Editor und den 
 
-![bsp code2](Bilder.exe/code2.png)
+![bsp code2](Bilder.exe/code2.PNG)
 
-![bsp design](Bilder.exe/design.png)
+![bsp design](Bilder.exe/design.PNG)
 
 
 
