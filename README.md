@@ -8,8 +8,8 @@
 ## Inhaltsverzeichnis
 
 * [Projektvorstellung](#projekt)
-  * [Die Intention des Spiels](#Intention)
-* [Das Spiel selber programmieren](#dssp)
+  * [Die Intention der App](#Intention)
+* [Die App selber programmieren](#dssp)
   * [App Lab - Code.org](#al)
   * [Erste Schritte](#erste)
   * [Das Spiel programmieren](#Spiel)
@@ -59,12 +59,12 @@ Wenn man aber nach den 20 Sekunden weniger als 20 Klicks geschafft hat oder alle
 
 ![bsp verloren](Bilder.exe/verloren.PNG)
 
-## Die Intention des Spiels <a name="Intention"></a>
+## Die Intention der App <a name="Intention"></a>
 
 Mit der App "Fuchsland" sollen der Spaß beim Spielen und das Erweitern des Wissens über das Thema Klimawandel miteinender vereint werden. Das Spiel soll somit zum Lernen motivieren, aber auch das Bewusstsein dafür stärken, in welcher aktuellen Lage die Erde steckt, und somit auch wir Menschen, und inwiefern unser Verhalten diesen Zustand bzw. den Klimawandel selbst beeinflusst. 
 Durch das allgemein kindliche Design und das Spiel ist die App zwar für jüngere Kinder geeignet, das Quiz erfordert allerdings etwas mehr Allgemeinbildung. Somit ist die App generell für mehrere Zielgruppen geeignet.
 
-## Das Spiel selber programmieren <a name="dssp"></a>
+## Die App selber programmieren <a name="dssp"></a>
 
 ## App Lab - Code.org <a name="al"></a>
 
@@ -93,10 +93,11 @@ In dem Block Editor kann man per Drag and Drop verschiedene Blocks von der linke
 In dem Design Editor kann man Hintergründe, Images, Textlabels o.Ä. erstellen. Dazu kann man Bilder von seinem eigenen Computer oder aus dem Internet in das Projekt hochladen. Bei Code.org kann man so viele verschiedene Screens erstellen, wie man möchte und sie z.B. auch duplizieren, um sich Arbeit zu ersparen. Diese Möglichkeiten sind für unser Projekt sehr praktisch, da wir durch die Quiz-, Spiel-, und Testebene viele, ähnliche Screens brauchen.
 
 
-
-
-
 ## Erste Schritte <a name="erste"></a>
+
+Zunächst muss ein neues Projekt gestartet werden. Bevor man mit dem Programmieren beginnt, sollte einem das allgemeine Konzept der App bereits bewusst sein. Generell hat Code.org den Vorteil, dass das Projekt, die Screens und alle Objekte wie Buttons, Labels und TextAreas zu jeder Zeit umbenannt werden können, was große Flexibilität ermöglicht, falls man neue Ideen bekommt oder Korrekturen vornehmen möchte.
+
+Trotzdem sollte schon ab Erstellen des ersten Screens jedes Objekt sinnvoll benannt werden. Das verschafft Übersicht, sobald die Programmierung komplexer wird und ist auch für eventuelle Nachahmer nachvollziehbarer.
 
 ## Das Spiel programmieren <a name="Spiel"></a>
 
