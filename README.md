@@ -28,9 +28,26 @@
 
 ## App Lab - Code.org <a name="al"></a>
 
-![bsp applab](Bilder.exe/applab.png)
+![bsp applab](Bilder.exe/applab.png) ![bsp code](Bilder.exe/code.png)
 
-AppLab ist ein
+Bevor man mit dem Programmieren des Spiels beginnt, sollte man sich erst mit dem Programm vertraut machen.
+
+Code.org ist ein gemeinnütziges Unternehmen aus den USA und wurde 2013 gegründet. Die Grundidee hinter der Programmierungswebsite besteht darin, jedem die Möglichkeit zu geben, Programmieren zu lernen. Außerdem soll die Programmierfähigkeit besonders in der Schule gefördert werden. 
+
+MIT App Inventor ist online frei zugänglich, vor der ersten Anwendung muss man sich mit seiner E-mail-Adresse registrieren. Danach kann man begonnene Projekte online speichern, sodass man jederzeit darauf zugreifen kann und diese weiterbearbeiten kann.
+
+Das Programmieren auf Code.org basiert auf Java, ist aber durch die Blocks, die sinnvoll zusammengefügt werden müssen, relativ einfach und somit für Anfänger geeignet. Dadurch, dass Code.org auf viele Sprachen eingestellt werden kann, kann man bei Verständnisschwierigkeiten auch z.B. auf Deutsch programmieren. Wenn man allerdings schon mit anderen Programmen gearbeitet hat, kann die Umstellung auch eher irritieren, da manche Befehle eher auf Englisch vertraut sind.
+
+Ein Code.org-Projekt teilt sich in drei Ebenen auf, den Code-Editor und den 
+
+![bsp code2](Bilder.exe/code2.png)
+
+![bsp design](Bilder.exe/design.png)
+
+
+
+
+
 
 ## Erste Schritte <a name="erste"></a>
 
