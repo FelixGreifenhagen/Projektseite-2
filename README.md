@@ -88,11 +88,11 @@ In dem Block Editor kann man per Drag and Drop verschiedene Blocks aus der Tool 
 
 Zudem kann die Ansicht der Blocks gewchselt werden, indem man oben rechts auf "Show Text" klickt. Diese Ansicht kann weniger übersichtlich sein, aber das ist für jeden unterschiedlich. Wenn man allerdings in dieser Textansicht einen Fehler einbaut, kann man nicht zu Block-Ansicht zurückkehren, bevor der Fehler behoben wurde. 
 
-![bsp showtext](Bilder.exe/showtext.PNG)
+![bsp showblocks](Bilder.exe/showtext.PNG)
 
 Das Besondere an Code.org ist aber auch, dass einem die Ursachen für Fehler angezeigt werden. Einmal direkt an den Blocks...
 
-![bsp fehler](Bilder.exe/fehler.PNG)
+![bsp fehler](Bilder.exe/fehler.png)
 
 ...und in der Debug Console, wo auch längere Ausführungen über die Ursachen stehen können. Diese können häufig dabei helfen, den Fehler zu beheben und erleichtern somit das Programmieren.
 
