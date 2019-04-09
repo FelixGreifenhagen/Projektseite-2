@@ -113,6 +113,15 @@ Trotzdem sollte schon ab Erstellen des ersten Screens jedes Objekt sinnvoll bena
 
 ## Das Spiel programmieren <a name="Spiel"></a>
 
+![bsp gewonnen](Bilder.exe/gewonnen.PNG)
+
+![bsp verloren](Bilder.exe/verloren.PNG)
+
+![bsp spiel2](Bilder.exe/spiel2.PNG)
+
+![bsp spielA](Bilder.exe/spielA.PNG)
+
+![bsp spielB](Bilder.exe/spielB.PNG)
 
 ## Den Test programmieren <a name="Test"></a>
 
