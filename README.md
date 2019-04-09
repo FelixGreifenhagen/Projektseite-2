@@ -44,7 +44,13 @@ Nach den 5 Fragen wird dem Spieler sein Endergebnis und die entsprechende Bewert
 
 ### Die Spielebene
 
+![bsp spiel1](Bilder.exe/spiel1.PNG)
 
+![bsp spiel2](Bilder.exe/spiel2.PNG)
+
+![bsp gewonnen](Bilder.exe/gewonnen.PNG)
+
+![bsp verloren](Bilder.exe/verloren.PNG)
 
 ## Die Intention des Spiels <a name="Intention"></a>
 
