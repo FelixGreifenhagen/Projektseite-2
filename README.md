@@ -101,13 +101,13 @@ In dem Design Editor kann man Hintergründe, Images, Textlabels o.Ä. erstellen.
 ## Den Test programmieren <a name="Test"></a>
 
 
-## Die Fragen <a name="Fragen1"></a>
+### Die Fragen <a name="Fragen1"></a>
 
 ## Das Quiz programmieren <a name="Quiz"></a>
 
 
 
-## Die Fragen <a name="Fragen2"></a>
+### Die Fragen <a name="Fragen2"></a>
 
 ## Weitere Screens <a name="weitere"></a>
 
