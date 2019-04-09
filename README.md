@@ -48,7 +48,12 @@ Nach den 5 Fragen wird dem Spieler sein Endergebnis und die entsprechende Bewert
 
 ![bsp spiel2](Bilder.exe/spiel2.PNG)
 
+Beim Spiel soll man innerhalb von 20 Sekunden so oft wie möglich auf eine Plastikflasche klicken, die nach jedem KLick ihre Position zufällig ändert. Außerdem hat man 3 Leben, die zusammen mit dem Score am oberen Bildschirmrand mitgezählt werden.
+Schafft man es, innerhalb der 20 Sekunden 20 Mal auf die Flasche zu klicken, ohne dabei 3 Leben zu verliere, erscheint der Screen, dass man gewonnen hat. Von dort aus kann man nochmal spielen oder ins Fuchsland zurückkehren:
+
 ![bsp gewonnen](Bilder.exe/gewonnen.PNG)
+
+Wenn man aber nach den 20 Sekunden weniger als 20 Klicks geschafft hat oder alle 3 Leben verloren hat, wird einem der Verloren-Screen angezeigt. Von dort kann man genauso fortfahren wie beim Gewonnen-Screen.
 
 ![bsp verloren](Bilder.exe/verloren.PNG)
 
