@@ -28,9 +28,13 @@ Unser Projekt ist eine App, die wir mit App Lab-Code.org erstellt haben. Die App
 
 (BILD VON QUIZ FRAGE1, FFRAGE 1 UND RICHTIG)
 
+![bsp quiz1](Bilder.exe/quiz1.png)
+
 In diesem Teil der App gibt es 10 Fragen zum Klimawandel mit jeweils drei Antwortmöglichkeiten. Bei richtiger bzw. falscher Antwort wird man zum entsprechenden Screen weitergeleitet, wo es den passenden Erklärtext bzw. Ergänzungen zur richtigen Antwort gibt. Von dort aus kann man zur nächsten Frage weitergehen. SCORE?
 
 ### Die Testebene
+
+![bsp prüfung](Bilder.exe/prüfung.PNG)
 
 (BILD VON Test1, FFRAGE 1 UND RICHTIG)
 
