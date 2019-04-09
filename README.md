@@ -28,7 +28,7 @@
 
 ## App Lab - Code.org <a name="al"></a>
 
-![bsp applab](Bilder.exe/applab.png) ![bsp code](Bilder.exe/code.PNG)
+![bsp applab](Bilder.exe/applab.png)![bsp code](Bilder.exe/code.PNG)
 
 Bevor man mit dem Programmieren des Spiels beginnt, sollte man sich erst mit dem Programm vertraut machen.
 
