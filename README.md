@@ -61,6 +61,9 @@ Wenn man aber nach den 20 Sekunden weniger als 20 Klicks geschafft hat oder alle
 
 ## Die Intention des Spiels <a name="Intention"></a>
 
+Mit der App "Fuchsland" sollen der Spaß beim Spielen und das Erweitern des Wissens über das Thema Klimawandel miteinender vereint werden. Das Spiel soll somit zum Lernen motivieren, aber auch das Bewusstsein dafür stärken, in welcher aktuellen Lage die Erde steckt, und somit auch wir Menschen, und inwiefern unser Verhalten diesen Zustand bzw. den Klimawandel selbst beeinflusst. 
+Durch das allgemein kindliche Design und das Spiel ist die App zwar für jüngere Kinder geeignet, das Quiz erfordert allerdings etwas mehr Allgemeinbildung. Somit ist die App generell für mehrere Zielgruppen geeignet.
+
 ## Das Spiel selber programmieren <a name="dssp"></a>
 
 ## App Lab - Code.org <a name="al"></a>
