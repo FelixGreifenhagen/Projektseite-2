@@ -16,7 +16,6 @@
   * [Den Test programmieren](#Test)
     * [Die Fragen](#Fragen1)
   * [Das Quiz programmieren](#Quiz)
-    * [Die Fragen](#Fragen2)
   * [Weitere Screens](#weitere)
 
 
@@ -143,6 +142,7 @@ Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigent
 
 ## Das Quiz programmieren <a name="Quiz"></a>
 
+### Die Fragen
 
 ![bsp quizcode1](Bilder.exe/quizcode1.PNG)
 
@@ -152,7 +152,7 @@ Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigent
 
 ![bsp quizcode3](Bilder.exe/quizcode3.PNG)
 
-### Die Fragen <a name="Fragen2"></a>
+ 
 
 ## Weitere Screens <a name="weitere"></a>
 
