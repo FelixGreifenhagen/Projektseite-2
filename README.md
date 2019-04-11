@@ -50,7 +50,7 @@ Beim Spiel soll man innerhalb von 20 Sekunden so oft wie möglich auf eine Plast
 
 ![bsp spiel2](Bilder.exe/spiel2.PNG)
 
-Schafft man es, innerhalb der 20 Sekunden mindestens 10 Mal auf die Flasche zu klicken, ohne dabei 3 Leben zu verliere, erscheint der Screen, dass man gewonnen hat. Von dort aus kann man nochmal spielen oder ins Fuchsland zurückkehren:
+Schafft man es, innerhalb der 20 Sekunden mindestens 10 Mal auf die Flasche zu klicken, ohne dabei 3 Leben zu verlieren, erscheint der Screen, dass man gewonnen hat. Von dort aus kann man nochmal spielen oder ins Fuchsland zurückkehren:
 
 ![bsp gewonnen](Bilder.exe/gewonnen.PNG)
 
@@ -121,20 +121,26 @@ Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigent
  So wird auch hier zuerst die Variable *timer* definiert und erhält den Wert 20 (Sekunden).   
  Mit der Initialisierung des Screens *Clicker* wird dann der Timer aktiviert...1000.. und wird mit *timer-1* so programmiert, dass die Uhr rückwärts läuft und durch den Block `setText "timer" = timer` für den Spieler sichtbar ist.
  
- Der Block `(if) timer==0` lässt den nächsten Block erst ausführen, wenn die Bedingung `x==y` true ist, also erfüllt ist. Ist der Timer auf 0 Sekunden abgelaufen, werden di Variablen score, lives und timer wieder auf ihre Anfangswerte festgelegt, der Timer gestoppt und der Screen *verloren* erscheint.
+ Der Block `(if) timer==0` lässt den nächsten Block erst ausführen, wenn die Bedingung `x==y` true, also erfüllt ist. Ist der Timer auf 0 Sekunden abgelaufen, werden die Variablen score, lives und timer wieder auf ihre Anfangswerte festgelegt, der Timer gestoppt und der Screen *verloren* erscheint.
  
  
 ![bsp spielcode1](Bilder.exe/spielcode1.PNG)
 ![bsp verloren](Bilder.exe/verloren.PNG)
 
+Die Programmierung für den Screen *Clicker* ist ähnlich. Auch hier wird der Text für lives und score festgelegt und diese zusätzlich noch definiert. Hinzu kommt, dass die Plastikflasche mit dem Block `setPosition (Müll), randomNumber(x,y)...` so programmiert wird, dass sie nach jedem Klick eine zufällige Position auf dem Bildschirm einnimmt. 
+
+Auch hier wird wieder der true/false-Block `score==10`benutzt. Dementsprechend werden die folgenden Befehle erst ausgeführt, wenn der Spieler 10 Mal auf die Flasche geklickt hat und damit einen Score von 10 hat. Mit dieser erfüllten Bedingung wird der Screen *gewonnen* initialisiert, der Timer gestoppt und die Werte von score, lives und timer zurückgesetzt
+
 ![bsp spielcode2](Bilder.exe/spielcode2.PNG)
+![bsp gewonnen](Bilder.exe/gewonnen.PNG)
+
 
 ![bsp spielcode3](Bilder.exe/spielcode3.PNG)
 
 ![bsp spielcode4](Bilder.exe/spielcode4.PNG)
 
 
-![bsp gewonnen](Bilder.exe/gewonnen.PNG)
+
 
 
 
