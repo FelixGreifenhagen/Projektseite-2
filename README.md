@@ -119,12 +119,13 @@ Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigent
     Generell ist es wichtig, Variablen zu definieren, bevor sie in den eigentlichen Blocks verwendet werden:
     
  So wird auch hier zuerst die Variable *timer* definiert und erhält den Wert 20 (Sekunden).   
- Mit der Initialisierung des Screens *Clicker* wird dann der Timer aktiviert...1000.. und wird mit *timer-1* so programmiert, dass die Uhr rückwärts läuft und durch den Block *setText "timer" = timer* für den Spieler sichtbar ist.
+ Mit der Initialisierung des Screens *Clicker* wird dann der Timer aktiviert...1000.. und wird mit *timer-1* so programmiert, dass die Uhr rückwärts läuft und durch den Block `setText "timer" = timer` für den Spieler sichtbar ist.
  
- Der Block (if) `timer==0` lässt den nächsten Block erst ausführen, wenn die Bedingung x==y true ist, also erfüllt ist. Ist der Timer auf 0 Sekunden abgelaufen
+ Der Block `(if) timer==0` lässt den nächsten Block erst ausführen, wenn die Bedingung `x==y` true ist, also erfüllt ist. Ist der Timer auf 0 Sekunden abgelaufen, werden di Variablen score, lives und timer wieder auf ihre Anfangswerte festgelegt, der Timer gestoppt und der Screen *verloren* erscheint.
  
  
 ![bsp spielcode1](Bilder.exe/spielcode1.PNG)
+![bsp verloren](Bilder.exe/verloren.PNG)
 
 ![bsp spielcode2](Bilder.exe/spielcode2.PNG)
 
@@ -135,7 +136,7 @@ Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigent
 
 ![bsp gewonnen](Bilder.exe/gewonnen.PNG)
 
-![bsp verloren](Bilder.exe/verloren.PNG)
+
 
 ![bsp spiel2](Bilder.exe/spiel2.PNG)
 
