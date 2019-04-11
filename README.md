@@ -111,17 +111,16 @@ Zunächst muss ein neues Projekt gestartet werden. Bevor man mit dem Programmier
 Trotzdem sollte schon ab Erstellen des ersten Screens jedes Objekt sinnvoll benannt werden. Das verschafft Übersicht, sobald die Programmierung komplexer wird und ist auch für eventuelle Nachahmer nachvollziehbarer.
 
 ## Das Spiel programmieren <a name="Spiel"></a>
-====================================================
 
-Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigentlichen Spiel gelangt. Mit dem Anklicken des Buttons *startbs* werden außerdem die Textlabels Score, Lives und timer benannt und definiert, sodass auf dem Screen *Clicker* diese durch bestimmte Ereignisse sich wie Variablen verhalten und geändert werden können. Gleichzeitig wird *Clicker*  initialisiert.
+Das Spiel beginnt mit dem Startscreen, von dem man durch einen Button zum eigentlichen Spiel gelangt. Mit dem Anklicken des Buttons *startbs* werden außerdem die Textlabels score, lives und timer benannt und definiert, sodass auf dem Screen *Clicker* diese durch bestimmte Ereignisse sich wie Variablen verhalten und geändert werden können. Gleichzeitig wird *Clicker*  initialisiert.
 
    
-    Generell ist es wichtig, Variablen zu definieren, bevor sie in den eigentlichen Blocks verwendet werden:
+    Generell ist es wichtig, Variablen zu definieren, bevor sie in den eigentlichen Blocks verwendet werden.
     
- So wird auch hier zuerst die Variable *timer* definiert und erhält den Wert 20 (Sekunden).   
- Mit der Initialisierung des Screens *Clicker* wird dann der Timer aktiviert...1000.. und wird mit *timer-1* so programmiert, dass die Uhr rückwärts läuft und durch den Block `setText "timer" = timer` für den Spieler sichtbar ist.
+So wird auch hier zuerst die Variable *timer* definiert und erhält den Wert 20 (Sekunden).   
+Mit der Initialisierung des Screens *Clicker* wird dann der Timer aktiviert...1000.. und wird mit `timer-1` so programmiert, dass die Uhr rückwärts läuft und durch den Block `setText "timer" = timer` für den Spieler sichtbar ist.
  
- Der Block `(if) timer==0` lässt den nächsten Block erst ausführen, wenn die Bedingung `x==y` true, also erfüllt ist. Ist der Timer auf 0 Sekunden abgelaufen, werden die Variablen score, lives und timer wieder auf ihre Anfangswerte festgelegt, der Timer gestoppt und der Screen *verloren* erscheint.
+Der Block `(if) timer==0` lässt den nächsten Block erst ausführen, wenn die Bedingung `x==y` true, also erfüllt ist. Ist der Timer auf 0 Sekunden abgelaufen, werden die Variablen score, lives und timer wieder auf ihre Anfangswerte festgelegt, der Timer gestoppt und der Screen *verloren* erscheint.
  
  
 ![bsp spielcode1](Bilder.exe/spielcode1.PNG)
@@ -134,8 +133,11 @@ Auch hier wird wieder der true/false-Block `score==10`benutzt. Dementsprechend w
 ![bsp spielcode2](Bilder.exe/spielcode2.PNG)
 ![bsp gewonnen](Bilder.exe/gewonnen.PNG)
 
+Außerdem muss programmiert werden, was passieren soll, wenn der Spieler auf den Hintergrund statt auf die Flasche klickt. Dafür wird der (bei uns) häufig benutzte Block `onEvent ("background", "click"9..` eingesetzt. Auch die anderen Befehle ähneln den Vorherigen. So wird pro Klick auf den Hintergrund ein Leben abgezogen und sobald keine Leben mehr übrig sind, der Screen *verloren* angezeigt und die Werte zurückgesetzt.
 
 ![bsp spielcode3](Bilder.exe/spielcode3.PNG)
+
+Auf dem *verloren*- und *gewonnen*-Screen sind Buttons programmiert, die mit dem eben genannten `onEvent`- Block ausgeführt werden können und den Spieler je nach Wunsch in das Fuchsland zurückkehren oder ihn das Spiel nochmal spielen lassen:
 
 ![bsp spielcode4](Bilder.exe/spielcode4.PNG)
 
