@@ -115,7 +115,8 @@ Trotzdem sollte schon ab Erstellen des ersten Screens jedes Objekt sinnvoll bena
 Das Spiel beginnt mit dem Startscreen, von dem man durch einen Button zum eigentlichen Spiel gelangt. Mit dem Anklicken des Buttons *startbs* werden außerdem die Textlabels score, lives und timer benannt und definiert, sodass auf dem Screen *Clicker* diese durch bestimmte Ereignisse sich wie Variablen verhalten und geändert werden können. Gleichzeitig wird *Clicker*  initialisiert.
 
    
-    Generell ist es wichtig, Variablen zu definieren, bevor sie in den eigentlichen Blocks verwendet werden.
+    Bei diesem Programm bzw. der App ist es wichtig, Variablen zu definieren, 
+    bevor sie in den eigentlichen Blocks verwendet werden.
     
 So wird auch hier zuerst die Variable *timer* definiert und erhält den Wert 20 (Sekunden).   
 Mit der Initialisierung des Screens *Clicker* wird dann der Timer aktiviert...1000.. und wird mit `timer-1` so programmiert, dass die Uhr rückwärts läuft und durch den Block `setText "timer" = timer` für den Spieler sichtbar ist.
@@ -140,14 +141,6 @@ Außerdem muss programmiert werden, was passieren soll, wenn der Spieler auf den
 Auf dem *verloren*- und *gewonnen*-Screen sind Buttons programmiert, die mit dem eben genannten `onEvent`- Block ausgeführt werden können und den Spieler je nach Wunsch in das Fuchsland zurückkehren oder ihn das Spiel nochmal spielen lassen:
 
 ![bsp spielcode4](Bilder.exe/spielcode4.PNG)
-
-
-
-
-
-
-![bsp spiel2](Bilder.exe/spiel2.PNG)
-
 
 
 ## Den Test programmieren <a name="Test"></a>
