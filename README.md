@@ -125,7 +125,6 @@ Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigent
 ![bsp spiel2](Bilder.exe/spiel2.PNG)
 
 
-![bsp spielB](Bilder.exe/spielB.PNG)
 
 ## Den Test programmieren <a name="Test"></a>
 
