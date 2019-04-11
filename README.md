@@ -113,15 +113,15 @@ Trotzdem sollte schon ab Erstellen des ersten Screens jedes Objekt sinnvoll bena
 ## Das Spiel programmieren <a name="Spiel"></a>
 ====================================================
 
-Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigentlichen Spiel gelangt. Mit dem Anklicken des Buttons *startbs* werden außerdem die Textlabels Score, Lives und timer benannt und definiert, sodass auf dem Screen Clicker diese durch bestimmte Ereignisse sich wie Variablen verhalten und geändert werden können. Gleichzeitig wird Clicker initialisiert.
+Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigentlichen Spiel gelangt. Mit dem Anklicken des Buttons *startbs* werden außerdem die Textlabels Score, Lives und timer benannt und definiert, sodass auf dem Screen *Clicker* diese durch bestimmte Ereignisse sich wie Variablen verhalten und geändert werden können. Gleichzeitig wird *Clicker*  initialisiert.
 
+   
     Generell ist es wichtig, Variablen zu definieren, bevor sie in den eigentlichen Blocks verwendet werden:
     
+ So wird auch hier zuerst die Variable *timer* definiert und erhält den Wert 20 (Sekunden).   
+ Mit der Initialisierung des Screens *Clicker* wird dann der Timer aktiviert...1000.. und wird mit *timer-1* so programmiert, dass die Uhr rückwärts läuft und durch den Block *setText "timer" = timer* für den Spieler sichtbar ist.
  
-
-![bsp spielA](Bilder.exe/spielA.PNG)
-
-
+ Der Block (if) *timer==0* lässt den nächsten Block
 ![bsp spielcode1](Bilder.exe/spielcode1.PNG)
 
 ![bsp spielcode2](Bilder.exe/spielcode2.PNG)
