@@ -118,6 +118,16 @@ Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigent
 
 ![bsp spielA](Bilder.exe/spielA.PNG)
 
+
+![bsp spielcode1](Bilder.exe/spielcode1.PNG)
+
+![bsp spielcode2](Bilder.exe/spielcode2.PNG)
+
+![bsp spielcode3](Bilder.exe/spielcode3.PNG)
+
+![bsp spielcode4](Bilder.exe/spielcode4.PNG)
+
+
 ![bsp gewonnen](Bilder.exe/gewonnen.PNG)
 
 ![bsp verloren](Bilder.exe/verloren.PNG)
@@ -134,6 +144,13 @@ Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigent
 ## Das Quiz programmieren <a name="Quiz"></a>
 
 
+![bsp quizcode1](Bilder.exe/quizcode1.PNG)
+
+
+![bsp quizcode2](Bilder.exe/quizcode2.PNG)
+
+
+![bsp quizcode3](Bilder.exe/quizcode3.PNG)
 
 ### Die Fragen <a name="Fragen2"></a>
 
