@@ -121,7 +121,9 @@ Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigent
  So wird auch hier zuerst die Variable *timer* definiert und erhält den Wert 20 (Sekunden).   
  Mit der Initialisierung des Screens *Clicker* wird dann der Timer aktiviert...1000.. und wird mit *timer-1* so programmiert, dass die Uhr rückwärts läuft und durch den Block *setText "timer" = timer* für den Spieler sichtbar ist.
  
- Der Block (if) *timer==0* lässt den nächsten Block
+ Der Block (if) `timer==0` lässt den nächsten Block erst ausführen, wenn die Bedingung x==y true ist, also erfüllt ist. Ist der Timer auf 0 Sekunden abgelaufen
+ 
+ 
 ![bsp spielcode1](Bilder.exe/spielcode1.PNG)
 
 ![bsp spielcode2](Bilder.exe/spielcode2.PNG)
@@ -142,11 +144,11 @@ Das Spiel beginnt mit dem Startscreen, von dem man durch einen button zum eigent
 ## Den Test programmieren <a name="Test"></a>
 
 
-### Die Fragen <a name="Fragen1"></a>
+###### Die Fragen <a name="Fragen1"></a>
 
 ## Das Quiz programmieren <a name="Quiz"></a>
 
-### Die Fragen
+###### Die Fragen
 
 ![bsp quizcode1](Bilder.exe/quizcode1.PNG)
 
