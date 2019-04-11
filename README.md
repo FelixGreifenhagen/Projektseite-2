@@ -101,7 +101,9 @@ Das Besondere an Code.org ist aber auch, dass einem die Ursachen für Fehler ang
 
 ![bsp design](Bilder.exe/design.PNG)
 
-In dem Design Editor kann man Hintergründe, Images, Textlabels o.Ä. erstellen. Dazu kann man Bilder von seinem eigenen Computer oder aus dem Internet in das Projekt hochladen. Bei Code.org kann man so viele verschiedene Screens erstellen, wie man möchte und sie z.B. auch duplizieren, um sich Arbeit zu ersparen. Diese Möglichkeiten sind für unser Projekt sehr praktisch, da wir durch die Quiz-, Spiel-, und Testebene viele, ähnliche Screens brauchen.
+In dem Design Editor kann man Hintergründe, Images, Textlabels o.Ä. erstellen und sie oben rechts in dem Kasten *id* umbenennen,z.B. um bei der Programmierung dieser Objekte nicht den Überblick zu verlieren. Dazu kann man Bilder von seinem eigenen Computer oder aus dem Internet in das Projekt hochladen. 
+
+Bei Code.org kann man so viele verschiedene Screens erstellen, wie man möchte und sie z.B. auch duplizieren, um sich Arbeit zu ersparen. Diese Möglichkeiten sind für unser Projekt sehr praktisch, da wir durch die Quiz-, Spiel-, und Testebene viele, ähnliche Screens brauchen.
 
 
 ## Erste Schritte <a name="erste"></a>
@@ -150,15 +152,20 @@ Auf dem *verloren*- und *gewonnen*-Screen sind Buttons programmiert, die mit dem
 
 ## Das Quiz programmieren <a name="Quiz"></a>
 
-###### Die Fragen
+##### Die Fragen
 
 ![bsp quizcode1](Bilder.exe/quizcode1.PNG)
+
+
+##### Programmierung des Scores
 
 
 ![bsp quizcode2](Bilder.exe/quizcode2.PNG)
 
 
 ![bsp quizcode3](Bilder.exe/quizcode3.PNG)
+
+BILD VON ENDEQUIZ DESIGN
 
  
 
