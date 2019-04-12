@@ -274,7 +274,10 @@ Die zweite größere if-Schleife in der Funktion *check* wird genauso wie die er
 
 ![bsp testcode3](Bilder.exe/testcode3.PNG)
 
-Nun werden die erstellten Funktionen durch die folgenden Blocks als Befehle ausgeführt, indem man die Funktionen wie Variablen einfügt.
+Nun werden die erstellten Funktionen durch die folgenden Blocks als Befehle ausgeführt, indem man die Funktionen wie Variablen einfügt. Wenn eine Taste der Tastatur gedrückt wird `onEvent ("test1", "keyDown")`, wird sowohl die Funktion *movef*, als auch die Funktion *check* ausgeführt.
+Für die jeweils vorkommenden Variablen (*fuchs*, *image1*, *image2*, *screen*, *point1*, *point2*) müssen nun die jeweiligen IDs (Identifaktoren) der auf dem Screen liegenden Objekte eingesetzt werden.
+Besipielsweise bei dem Screen Test1: `movef ("F", event)`und `check ("F", "image33", "image35", "test2", 0, 2)`
+Wird somit *image33* berührt, werden 0 Punkte zu dem Score addiert, wird hingegen *image35* berührt, werden 2 Punkte zu dem Score hinzugefügt.
 
 ![bsp testcode4](Bilder.exe/testcode4.PNG)
 
