@@ -165,6 +165,8 @@ Die zweite eigene Funktion heißt *check* und beinhaltet die Variablen *fuchs*, 
 
 ![bsp testcode3](Bilder.exe/testcode3.PNG)
 
+Nun werden die erstellten Funktionen durch die folgenden Blocks als Befehle ausgeführt, indem man die Funktionen wie Variablen einfügt.
+
 ![bsp testcode4](Bilder.exe/testcode4.PNG)
 
 
