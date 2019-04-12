@@ -2,7 +2,7 @@
 
 ## Fuchsland
 
-![bsp start](Bilder.exe/start.PNG)
+![bsp start](Bilder.exe/start.png)
 
 
 ## Inhaltsverzeichnis
