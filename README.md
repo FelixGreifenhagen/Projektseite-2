@@ -174,7 +174,7 @@ Trotzdem sollte schon ab Erstellen des ersten Screens jedes Objekt sinnvoll bena
 
 Zunächst sollten der Startscreen der App und der Fuchsland-Screen in der Designebene konstruiert werden. Neben dem Ästhetischen sind hierbei die auf den Bildern erkennbaren Buttons von besonderer Bedeutung, welche mit Drag & Drop eingefügt werden können.
 Durch den Befehl *setScreen* wird der Startscreen beim Starten der App aufgerufen. 
-Sobald in einer Programmierung eine Aktion ausgeführt werden soll, wird dies als „Event“ (deutsch: Ereignis) bezeichnet. Aus diesem Grund werden Aktionen in AppLab mit dem Befehl * onEvent* eingeleitet.
+Sobald in einer Programmierung eine Aktion ausgeführt werden soll, wird dies als „Event“ (deutsch: Ereignis) bezeichnet. Aus diesem Grund werden Aktionen in AppLab mit dem Befehl *onEvent* eingeleitet.
 Dass durch das Klicken auf einen Button ein neuer Screen geöffnet wird erreicht man somit durch folgende Befehle: 
 
 SCREEN
