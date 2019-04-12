@@ -148,8 +148,7 @@ Auf dem *verloren*- und *gewonnen*-Screen sind Buttons programmiert, die mit dem
 
 ![bsp testcode1](Bilder.exe/testcode1.PNG)
 
-    ![bsp addtestcode2](Bilder.exe/addtestcode2.PNG)
-    ![bsp add2testcode2](Bilder.exe/add2testcode2.PNG)
+![bsp addtestcode2](Bilder.exe/addtestcode2.PNG) ![bsp add2testcode2](Bilder.exe/add2testcode2.PNG)
 
 ![bsp testcode2](Bilder.exe/testcode2.PNG)
 
