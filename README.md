@@ -2,7 +2,7 @@
 
 ## Fuchsland
 
-![bsp fuchslandNeu](Bilder.exe/fuchslandNeu.PNG)
+![bsp start](Bilder.exe/start.PNG)
 
 
 ## Inhaltsverzeichnis
@@ -25,6 +25,8 @@ Bei dem Projekt "Fuchsland" handelt es sich um eine App, die mit App Lab-Code.or
 Die App besteht aus drei Ebenen, einer Spiel-, einer Quiz- und einer Testebene, die unabhängig voneinander gespielt werden können. Die gesamte App dreht sich um das Thema Klimaschutz und Klimawandel, damit der Nutzer auch etwas beim Benutzen der App lernt. 
 
 Man erreicht die verschiedenen Ebenen der App von dem Screen (siehe oben) aus, der das "Fuchsland" darstellt. Ein Fuchs begleitet den Nutzer durch die App und taucht an verschiedenen Stellen in unterschiedlichen Ebenen auf. 
+
+![bsp fuchslandNeu](Bilder.exe/fuchslandNeu.PNG)
 
 ### Die Quizebene
 
