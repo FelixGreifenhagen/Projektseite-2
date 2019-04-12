@@ -113,29 +113,37 @@ Deswegen ist die App "Fuchsland" grundsätzlich für alle Altersklassern geeigne
 
 Bevor man mit dem Programmieren des Spiels beginnt, sollte man sich erst mit dem Programm vertraut machen.
 
-Code.org ist ein gemeinnütziges Unternehmen aus den USA und wurde 2013 gegründet. Die Grundidee hinter der Programmierungswebsite besteht darin, jedem die Möglichkeit zu geben, Programmieren zu lernen. Außerdem soll die Programmierfähigkeit besonders in der Schule gefördert werden. 
+Code.org ist ein gemeinnütziges Unternehmen aus den USA und wurde 2013 gegründet. Die Grundidee hinter der Programmierungswebsite besteht darin, jedem die Möglichkeit zu geben Programmieren zu lernen. Außerdem soll insbesondere die Programmierfähigkeit von jungen Menschen in der Schule gefördert werden. 
 
-MIT App Inventor ist online frei zugänglich, vor der ersten Anwendung muss man sich mit seiner E-mail-Adresse registrieren. Danach kann man begonnene Projekte online speichern, sodass man jederzeit darauf zugreifen kann und diese weiterbearbeiten kann.
+AppLab ist online frei zugänglich, vor der ersten Anwendung muss man sich mit seiner E-mail-Adresse registrieren. Danach kann man begonnene Projekte online speichern, sodass man jederzeit auf diese zugreifen und sie weiter bearbeiten kann.
 
-Das Programmieren auf Code.org basiert auf Java, ist aber durch die Blocks, die sinnvoll zusammengefügt werden müssen, relativ einfach und somit für Anfänger geeignet. Dadurch, dass Code.org auf viele Sprachen eingestellt werden kann, kann man bei Verständnisschwierigkeiten auch z.B. auf Deutsch programmieren. Wenn man allerdings schon mit anderen Programmen gearbeitet hat, kann die Umstellung auch eher irritieren, da manche Befehle eher auf Englisch vertraut sind.
+Das Programmieren auf Code.org basiert auf Java Script, ist aber durch die Blocks, die sinnvoll zusammengefügt werden müssen, relativ einfach zu handhaben und somit auch für Anfänger geeignet. 
+Dadurch, dass Code.org auf viele Sprachen eingestellt werden kann, kann man bei Verständnisschwierigkeiten auch beispielsweise auf Deutsch programmieren. 
 
-Ein Code.org-Projekt teilt sich in drei Ebenen auf, den Code-, Design- und den Data-Editor. Letzteres haben wir für unsere App nicht verwendet, da er genutzt werden kann, um Daten wie Highscores außerhalb der App zu speichern.
+Ein Code.org-Projekt teilt sich in drei Ebenen auf, den Code-, Design- und den Data-Editor. Letzterer kann genutzt werden um Daten wie Highscores außerhalb der App zu speichern, bei dem Erstellen der Fuchsland - App wurde er jedoch nicht benötigt.
 
 ### Der Code-Editor:
 
 ![bsp code2](Bilder.exe/code2.PNG)
 
-In dem Block Editor kann man per Drag and Drop verschiedene Blocks aus der Tool Box aus den verschiedenen Kategorien auf die rechte Fläche ziehen. Diese Blocks kann man beliebig miteinander kombinieren und bei einigen selber bestimmte Befehle oder Dinge wie Definitionen und Benennungen dazutragen. Man kann verschiedene Screens miteinander verknüpfen, die Bewegung der Objekte programmieren und entscheiden, was beim Anklicken bestimmter Buttons, Labels oder anderer Objekte passiert.
+Auf AppLab kann man sich im Code- Editor den Code in zwei verschiedenen Formen anzeigen lassen und zwischen diesen jederzeit wechseln. Es gibt die Anzeige in Block-Form und die Anzeige in Text-Form.
 
-Zudem kann die Ansicht der Blocks gewchselt werden, indem man oben rechts auf "Show Text" klickt. Diese Ansicht kann weniger übersichtlich sein, aber das ist für jeden unterschiedlich. Wenn man allerdings in dieser Textansicht einen Fehler einbaut, kann man nicht zu Block-Ansicht zurückkehren, bevor der Fehler behoben wurde. 
+In dem Blockform kann man per Drag and Drop verschiedene Blocks aus den unterschiedlichen Kategorien der Toolbox auf die rechts liegende Arbeitsfläche ziehen. 
+Die Blocks kann man je nach Ziel der Programmierung miteinander kombinieren, durch die spezifischen Formen der Blocks wird einem gezeigt, an welchen Stellen man bestimmte Befehle in andere einbetten muss und wo dies nicht möglich ist.  
+Bei vielen Blocks muss man auf die Programmierung spezialisierte Befehle, Wörter und Zahlen einfügen, besipielsweise Namen von Screens, Buttons und bestimmte Koordinaten. 
+Zudem werden von den Programmierenden eigene Variablen und Funktionen ausgedacht, bennant und definiert.
+Grundsätzlich kann man durch die Blocks verschiedene Screens miteinander verknüpfen, die Bewegung von Objekte programmieren und entscheiden, was beim Anklicken bestimmter Buttons, Labels oder anderer Objekte passiert.
+
+Indem man oben rechts auf "Show Text" klickt kann man sich das Programmierte in Textform anschauen. Für Anfänger mag dies zunächst etwas unübersichtlich erscheinen, erfahrenen Programmierern kann es in der Textform jedoch leichter fallen, da das Tippen oft schneller geht und es möglich ist einzelne Passagen zu kopieren. 
+Wenn man allerdings in der Textansicht einen Fehler einbaut, kann man nicht zur Block-Ansicht zurückkehren, bevor der Fehler behoben wurde. 
 
 ![bsp showblocks](Bilder.exe/showblocks.PNG)
 
-Das Besondere an Code.org ist aber auch, dass einem die Ursachen für Fehler angezeigt werden. Einmal direkt an den Blocks...
+Eine Besonderheit an Code.org ist ebenfalls, dass einem direkt die Ursachen für Fehler angezeigt werden. Einmal direkt an den Blocks mit einem roten Zeichen...
 
 ![bsp fehler](Bilder.exe/fehler.png)
 
-...und in der Debug Console, wo auch längere Ausführungen über die Ursachen stehen können. Diese können häufig dabei helfen, den Fehler zu beheben und erleichtern somit das Programmieren.
+...und in der Debug Console, wo auch längere Ausführungen über die Ursachen stehen können. Diese helfen häufig dabei, den Fehler zu beheben und erleichtern somit das Programmieren.
 
 ![bsp debug](Bilder.exe/debug.PNG)
 
@@ -143,9 +151,9 @@ Das Besondere an Code.org ist aber auch, dass einem die Ursachen für Fehler ang
 
 ![bsp design](Bilder.exe/design.PNG)
 
-In dem Design Editor kann man Hintergründe, Images, Textlabels o.Ä. erstellen und sie oben rechts in dem Kasten *id* umbenennen,z.B. um bei der Programmierung dieser Objekte nicht den Überblick zu verlieren. Dazu kann man Bilder von seinem eigenen Computer oder aus dem Internet in das Projekt hochladen. 
+In dem Design Editor kann man Hintergründe, Images, Textlabels, Textfelder,  Buttons o.Ä. erstellen und sie oben rechts in dem Kasten *id* umbenennen, beispielsweise um bei der Programmierung dieser Objekte nicht den Überblick zu verlieren. Zusätzlich kann man Bilder von seinem eigenen Computer oder aus dem Internet in das Projekt hochladen und diese zum Beispiel als Hintergrund oder als Button verwenden. 
 
-Bei Code.org kann man so viele verschiedene Screens erstellen, wie man möchte und sie z.B. auch duplizieren, um sich Arbeit zu ersparen. Diese Möglichkeiten sind für unser Projekt sehr praktisch, da wir durch die Quiz-, Spiel-, und Testebene viele, ähnliche Screens brauchen.
+Bei Code.org kann man so viele verschiedene Screens erstellen wie man möchte und sie z.B. auch duplizieren, um sich Arbeit zu ersparen. 
 
 
 ## Erste Schritte <a name="erste"></a>
