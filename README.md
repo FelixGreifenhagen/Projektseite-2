@@ -52,7 +52,7 @@ Nach jeder Antwort wird dem Spieler direkt angezeigt, ob er richtig oder falsch 
 Am Ende des Quizzes bekommt er zusätzlich eine Übersicht, die die Anzahl der richtigen und falschen Antworten anzeigt. 
 Der Spieler hat die Möglichkeit das Wuiz zu wiederholen oder zum "Fuchsland" zurückzukehren. 
 
-![bsp übersicht](Bilder.exe/übersicht.png)
+![bsp übersicht](Bilder.exe/übersicht.PNG)
 
 ### Die Testebene <a name="test"></a>
 
