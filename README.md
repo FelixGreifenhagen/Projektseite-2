@@ -278,6 +278,10 @@ Nun werden die erstellten Funktionen durch die folgenden Blocks als Befehle ausg
 Für die jeweils vorkommenden Variablen (*fuchs*, *image1*, *image2*, *screen*, *point1*, *point2*) müssen nun die jeweiligen IDs (Identifaktoren) der auf dem Screen liegenden Objekte eingesetzt werden.
 Besipielsweise bei dem Screen Test1: `movef ("F", event)`und `check ("F", "image33", "image35", "test2", 0, 2)`
 Wird somit *image33* berührt, werden 0 Punkte zu dem Score addiert, wird hingegen *image35* berührt, werden 2 Punkte zu dem Score hinzugefügt.
+Bei den folgenden sechs Screens der Testebene müssen nur die IDs der Objekte ausgetauscht werden.
+
+Die letzten Blocks der Testebene programmieren den Endscreen des Test, von dem man durch das Betätigen verschiedener Buttons entweder zuück zum Fuchsland kehren kann oder sich vorerst noch einen Screen mit Tipps für einen selber anschauen kann.
+Der *Score3* wird wieder auf seinen Ursprungswert zurückgesetzt. 
 
 ![bsp testcode4](Bilder.exe/testcode4.PNG)
 
