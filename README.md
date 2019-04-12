@@ -247,11 +247,15 @@ Wird hingegen die Pfeiltaste nach rechts gedrückt, sind die anderen 3 Bedingung
 
 Die zweite eigene Funktion heißt *check* und beinhaltet die Variablen *fuchs*, *image1*, *image2*, *screen*, *point1* und *point2*. Mit der gesamten Funktion wird programmiert, was passiert wenn der Fuchs auf welchem Screen welches Bild (*image1* oder *image2*) berührt und wie viele Punkte (0, 1 oder 2 Punkte) daraufhin dem Score hinzugerechnet werden. 
 
-Innerhalb der zweiten Funktion sind zwei größere if-Schleifen erkennbar. Die erste if-Schleife bezieht sich auf *imagine1* und die zweite auf *image2*.
+Innerhalb der zweiten Funktion sind zwei größere if-Schleifen erkennbar. Die erste if-Schleife bezieht sich auf *image1* und die zweite auf *image2*.
 
 In der ersten if-Schleife ist zunächst eine orange umrandete Blockkombination erkennbar. Sie bezieht sich auf die Weite *width* des Fuchses.
 In der ersten if-Schleife ist eine weitere if-Schleife verschachtelt. Die dort drin liegende orangene Blockkombination bezieht sich auf die Höhe *height* des Fuchses.
-Mit beiden organgenen Blockkombinationen wird programmiert, dass die Koordinaten des Fuchses mit dem des *image1* übereinstimmen müssen, damit ein weiterer, folgender Befehl ausgeführt werden kann.
+Mit beiden orangenen Blockkombinationen wird programmiert, dass die Koordinaten des Fuchses mit dem des *image1* teilweise übereinstimmen müssen, damit ein weiterer, folgender Befehl ausgeführt werden kann.
+Die teilweise Übereinstimmung der Koordinaten von Fuchs und Bild bedeutet, dass der Fuchs das Bild beim Spielen berührt.
+
+Programmiert wird dies durch zwei mathemathische Ungleichungen, welche mit dem And-Operator *&&* miteinander verknüpft werden.
+Diesen nennt man auch *boolean operator*. `(...>... && ... < ...)`
 
 
 
