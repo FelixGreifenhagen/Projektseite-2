@@ -228,7 +228,7 @@ Auf dem *verloren*- und *gewonnen*-Screen sind Buttons installiert, die mit dem 
 
 ## Den Test programmieren <a name="Test"></a>
 
-Die folgende Blockkombination legt fest, dass bei der Initialisierung vom Screen *test1* die Variable *score3* definiert und den Wert 0 erhält. Dieser Score zeigt später durch das *label130* auf screen *testEnde* die Gesamtpunktzahl an.
+Die folgende Blockkombination legt fest, dass bei der Initialisierung vom Screen *test1* die Variable *score3* definiert wird und den Wert 0 erhält. Dieser Score zeigt später durch das *label130* auf screen *testEnde* die Gesamtpunktzahl an.
 
 ![bsp testcode1](Bilder.exe/testcode1.PNG)
 
