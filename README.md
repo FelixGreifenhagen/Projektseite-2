@@ -76,8 +76,9 @@ Nach den sieben Fragen wird dem Spieler sein ereichter Score angezeigt. Je niedr
 Mit folgender Tabelle kann der Spieler schauen wie er abgeschnitten hat und sein Ergebnis einstufen. 
 Anschließend hat er die Möglichkeit ins Fuchsland zurückzukehren oder sich sieben Tipps anzeigen zu lassen, wie er persönlich mehr für den Klimaschutz machen kann. 
 
-ENDSCREEN
-SCREEN MIT TIPPS
+![bsp testEnde](Bilder.exe/testEnde.PNG)
+
+![bsp test1fertig](Bilder.exe/test1fertig.PNG)
 
 ### Die Spielebene <a name="spiel"></a>
 
