@@ -24,13 +24,13 @@ Bei dem Projekt "Fuchsland" handelt es sich um eine App, die mit App Lab-Code.or
 
 Die App besteht aus drei Ebenen, einer Spiel-, einer Quiz- und einer Testebene, die unabhängig voneinander gespielt werden können. Die gesamte App dreht sich um das Thema Klimaschutz und Klimawandel, damit der Nutzer auch etwas beim Benutzen der App lernt. 
 
-Man erreicht die verschiedenen Ebenen der App von dem Screen (siehe oben) aus, der das "Fuchsland" darstellt. Ein Fuchs begleitet den Nutzer durch die App und taucht an verschiedenen Stellen in unterschiedlichen Ebenen auf. 
+Man erreicht die verschiedenen Ebenen der App von dem Screen aus, der das "Fuchsland" darstellt. Ein Fuchs begleitet den Nutzer durch die App und taucht an verschiedenen Stellen in unterschiedlichen Ebenen auf. 
 
 ![bsp fuchslandNeu](Bilder.exe/fuchslandNeu.PNG)
 
 ### Die Quizebene
 
-(BILD VON QUIZ FRAGE1, FFRAGE 1 UND RICHTIG)
+(BILD VON QUIZ FRAGE1, FFRAGE 1 UND RICHTIG) = 3 BILDER
 
 ![bsp quiz1](Bilder.exe/quiz1.png)
 
@@ -43,11 +43,13 @@ Nach jeder Antwort wird dem Spieler direkt angezeigt, ob er richtig oder falsch 
 Am Ende des Quizzes bekommt er zusätzlich eine Übersicht, die die Anzahl der richtigen und falschen Antworten anzeigt. 
 Der Spieler hat die Möglichkeit das Wuiz zu wiederholen oder zum "Fuchsland" zurückzukehren. 
 
+ÜBERICHT AM ENDE
+
 ### Die Testebene
 
 ![bsp test3](Bilder.exe/test3.PNG)
 
-(BILD VON Test1, Endescreen)
+(BILD VON Test1
 
 Die Testebene dient dazu, dass der Spieler sein eigenes Verhalten reflektiert und herausfindet,ob er bereits genug für den Klimaschutz tut.
 Der Test besteht aus sieben verschiedenen Fragen mit jeweils zwei Antwortmöglichkeiten. 
@@ -65,6 +67,8 @@ Nach den sieben Fragen wird dem Spieler sein ereichter Score angezeigt. Je niedr
 Mit folgender Tabelle kann der Spieler schauen wie er abgeschnitten hat und sein Ergebnis einstufen. 
 Anschließend hat er die Möglichkeit ins Fuchsland zurückzukehren oder sich sieben Tipps anzeigen zu lassen, wie er persönlich mehr für den Klimaschutz machen kann. 
 
+ENDSCREEN
+SCREEN MIT TIPPS
 
 ### Die Spielebene
 
