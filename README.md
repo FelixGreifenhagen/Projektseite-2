@@ -257,8 +257,9 @@ Teilweise übereinstimmende Koordinaten von Fuchs und Bild bedeuten, dass der Fu
 Programmiert wird dies durch zwei mathemathische Ungleichungen, welche mit dem And-Operator *&&* miteinander verknüpft werden.
 Diesen nennt man auch *boolean operator*. `(...>... && ... < ...)`Nur wenn links und rechts des boolean operators beide Bedingungen true (=erfüllt) sind, wird der nächste Befehl ausgeführt. 
 
-Der Befehl `getXposition(fuchs) + getProperty(fuchs, "width")/2` links vom boolean operator bedeutet, dass der mittlere x-Wert des Fuchses größer als der x- Wert des Bildes  `getXPosition(image1)` sein muss.
-Zusätzlich muss die Bedingung rechts vom boolean operator erfüllt sein, 
+Der Befehl `getXposition(fuchs) + getProperty(fuchs, "width")/2` links vom boolean operator bedeutet, dass der mittlere x-Wert des Fuchses größer als der eine x- Wert des Bildes  `getXPosition(image1)` sein muss.
+Zusätzlich muss die Bedingung rechts vom boolean operator erfüllt sein, der mittlere x-Wert des Fuchses muss kleiner als der andere x-Wert des Bildes sein.
+Der mittlere x-Wert des Fuchses muss sich somit zwischen dem linken und dem rechten äußeren x-Wert von *image* 1 bfinden, damit die Bedingung erfüllt ist.  
 
 ![bsp check](Bilder.exe/check.png)
 
