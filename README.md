@@ -8,6 +8,9 @@
 ## Inhaltsverzeichnis
 
 * [Projektvorstellung](#projekt)
+  * [Die Quizebene](#quiz)
+  * [Die Testebene](#test)
+  * [Die Spielebene](#spiel)
   * [Die Intention der App](#Intention)
 * [Die App selber programmieren](#dssp)
   * [App Lab - Code.org](#al)
@@ -28,7 +31,7 @@ Man erreicht die verschiedenen Ebenen der App von dem Screen aus, der das "Fuchs
 
 ![bsp fuchslandNeu](Bilder.exe/fuchslandNeu.PNG)
 
-### Die Quizebene
+### Die Quizebene <a name="quiz"></a>
 
 (BILD VON QUIZ FRAGE1, FFRAGE 1 UND RICHTIG) = 3 BILDER
 
@@ -45,7 +48,7 @@ Der Spieler hat die Möglichkeit das Wuiz zu wiederholen oder zum "Fuchsland" zu
 
 ÜBERICHT AM ENDE
 
-### Die Testebene
+### Die Testebene <a name="test"></a>
 
 ![bsp test3](Bilder.exe/test3.PNG)
 
@@ -70,7 +73,7 @@ Anschließend hat er die Möglichkeit ins Fuchsland zurückzukehren oder sich si
 ENDSCREEN
 SCREEN MIT TIPPS
 
-### Die Spielebene
+### Die Spielebene <a name="spiel"></a>
 
 ![bsp spiel1](Bilder.exe/spiel1.PNG)
 
