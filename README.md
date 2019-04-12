@@ -33,11 +33,15 @@ Man erreicht die verschiedenen Ebenen der App von dem Screen aus, der das "Fuchs
 
 ### Die Quizebene <a name="quiz"></a>
 
-(BILD VON QUIZ FRAGE1, FFRAGE 1 UND RICHTIG) = 3 BILDER
-
+![bsp quiz1](Bilder.exe/quiz1.png)
 ![bsp quizfrage1fertig](Bilder.exe/quizfrage1fertig.PNG)
 
-![bsp quiz1](Bilder.exe/quiz1.png)
+![bsp Rerderw1](Bilder.exe/Rerderw1.PNG)
+![bsp Rerderw2](Bilder.exe/Rerderw2.PNG)
+
+![bsp ffrage1A](Bilder.exe/ffrage1A.PNG)
+![bsp ffrage1B](Bilder.exe/ffrage1B.PNG)
+
 
 Die Quizebene testet das Wissen des Nutzers über den Klimawandel.
 In diesem Teil der App gibt es zehn Fragen zum Klimawandel mit jeweils drei Antwortmöglichkeiten, wovon der Nutzer eine anklicken und durch das Klicken auf "Weiter" einloggen kann. 
