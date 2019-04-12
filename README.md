@@ -212,16 +212,16 @@ Hinzu kommt, dass sobald die Plastikflasche angeklickt wird ( `onEvent "MÜll" c
 
 Jedes Mal wenn die Flasche angeklickt wird, wird der Score durch den Befehl `score = score + 1` um einen Punkt erhöht.
 
-Auch hier wird wieder der true/false-Block `score==10`benutzt. Dementsprechend werden die folgenden Befehle erst ausgeführt, wenn der Spieler 10 Mal auf die Flasche geklickt hat und damit einen Score von 10 hat. Mit dieser erfüllten Bedingung wird der Screen *gewonnen* initialisiert, der Timer gestoppt und die Werte von score, lives und timer zurückgesetzt
+Hier wird in einer if-Schleife der comparison-Block `score==10`benutzt. Dementsprechend werden die folgenden Befehle erst ausgeführt, wenn der Spieler 10 Mal auf die Flasche geklickt hat und damit einen Score von 10 hat. Mit dieser erfüllten Bedingung wird der Screen *gewonnen* initialisiert, der Timer gestoppt und die Werte von score, lives und timer zurückgesetzt.
 
 ![bsp spielcode2](Bilder.exe/spielcode2.PNG)
 ![bsp gewonnen](Bilder.exe/gewonnen.PNG)
 
-Außerdem muss programmiert werden, was passieren soll, wenn der Spieler auf den Hintergrund statt auf die Flasche klickt. Dafür wird der (bei uns) häufig benutzte Block `onEvent ("background", "click"9..` eingesetzt. Auch die anderen Befehle ähneln den Vorherigen. So wird pro Klick auf den Hintergrund ein Leben abgezogen und sobald keine Leben mehr übrig sind, der Screen *verloren* angezeigt und die Werte zurückgesetzt.
+Außerdem muss programmiert werden, was passieren soll, wenn der Spieler auf den Hintergrund statt auf die Flasche klickt. Dafür wird der Block `onEvent ("background", "click"9..` eingesetzt. Die anderen Befehle ähneln den Vorherigen, nur dass hier statt dem *Score* die *Lifes* programmiert werden. So wird pro Klick auf den Hintergrund ein Leben abgezogen `lives = lives-1`und sobald keine Leben mehr übrig sind ( `lives==0`), der Screen *verloren* angezeigt und die Werte zurückgesetzt.
 
 ![bsp spielcode3](Bilder.exe/spielcode3.PNG)
 
-Auf dem *verloren*- und *gewonnen*-Screen sind Buttons programmiert, die mit dem eben genannten `onEvent`- Block ausgeführt werden können und den Spieler je nach Wunsch in das Fuchsland zurückkehren oder ihn das Spiel nochmal spielen lassen:
+Auf dem *verloren*- und *gewonnen*-Screen sind Buttons installiert, die mit dem bekannten `onEvent`- Block programmiert werden und den Spieler je nach Wunsch in das Fuchsland zurückkehren oder ihn das Spiel nochmal spielen lassen:
 
 ![bsp spielcode4](Bilder.exe/spielcode4.PNG)
 
