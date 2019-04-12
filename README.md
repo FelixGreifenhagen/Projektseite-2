@@ -251,15 +251,24 @@ Innerhalb der zweiten Funktion sind zwei größere if-Schleifen erkennbar. Die e
 
 In der ersten if-Schleife ist zunächst eine orange umrandete Blockkombination erkennbar. Sie bezieht sich auf die Weite *width* des Fuchses.
 In der ersten if-Schleife ist eine weitere if-Schleife verschachtelt. Die dort drin liegende orangene Blockkombination bezieht sich auf die Höhe *height* des Fuchses.
-Mit beiden orangenen Blockkombinationen wird programmiert, dass die Koordinaten des Fuchses mit dem des *image1* teilweise übereinstimmen müssen, damit ein weiterer, folgender Befehl ausgeführt werden kann.
-Teilweise übereinstimmende Koordinaten von Fuchs und Bild bedeuten, dass der Fuchs das Bild beim Spielen berührt.
+Mit beiden orangenen Blockkombinationen wird programmiert, dass die Koordinaten des Fuchses (der Mittelpunkt) mit einem Punkt des *image1* übereinstimmen muss, damit ein weiterer, folgender Befehl ausgeführt werden kann.
+Stimmt der Mittelpunkt des Fuchses mit den Koordinaten des Bildes überein bedeutet das, dass der Fuchs das Bild beim Spielen berührt.
 
 Programmiert wird dies durch zwei mathemathische Ungleichungen, welche mit dem And-Operator *&&* miteinander verknüpft werden.
 Diesen nennt man auch *boolean operator*. `(...>... && ... < ...)`Nur wenn links und rechts des boolean operators beide Bedingungen true (=erfüllt) sind, wird der nächste Befehl ausgeführt. 
 
 Der Befehl `getXposition(fuchs) + getProperty(fuchs, "width")/2` links vom boolean operator bedeutet, dass der mittlere x-Wert des Fuchses größer als der eine x- Wert des Bildes  `getXPosition(image1)` sein muss.
-Zusätzlich muss die Bedingung rechts vom boolean operator erfüllt sein, der mittlere x-Wert des Fuchses muss kleiner als der andere x-Wert des Bildes sein.
-Der mittlere x-Wert des Fuchses muss sich somit zwischen dem linken und dem rechten äußeren x-Wert von *image* 1 bfinden, damit die Bedingung erfüllt ist.  
+Zusätzlich muss die Bedingung rechts vom boolean operator erfüllt sein, d.h. der mittlere x-Wert des Fuchses muss kleiner als der andere x-Wert des Bildes sein.
+Der mittlere x-Wert des Fuchses muss sich somit zwischen dem linken und dem rechten äußeren x-Wert von *image* 1 befinden, damit die Bedingung erfüllt ist.  
+
+Die orange Blockkombination, die sich auf die Höhe "hidth" des Fuchses bezieht ist gleich aufgebaut und sagt aus, dass der mittlere y-Wert des Fuchses zwischen dem unteren und oberen y-Wert des Bildes liegen muss.
+
+Sind diese beiden Bedingungen erfüllt, berührt der Fuchs also das *image1*, wird zu dem bereits zu Beginn der Testebene definierten *Score3* mit `Score3 = Score3 + point1` ein Punkt hinzugerechnet.
+Außerdem wird wenn die Bedingungen erfüllt sind ein neuer Screen initialisiert. ( `setScreen (screen)`)
+Des Weiteren wird der Fuchs durch `setPosition (fuchs, 120, 340)`auf seine Ursprungskoordinaten zurückgesetzt, damit das wiederholte Durchlaufen der Testebene keine Fehler bereitet.
+
+
+Die zweite größere if-Schleife in der Funktion *check* wird genauso wie die erste programmiert, allerdings beziehen sich die x- und y- Werte hier auf *image2*. Dadurch dass ein anderes Bild berührt wird, wird ein unterschiedlicher Punktwert hinzugerechnet. ( `Score3 = Score3 + point2`)
 
 ![bsp check](Bilder.exe/check.png)
 
