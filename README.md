@@ -181,7 +181,7 @@ Dass durch das Klicken auf einen Button ein neuer Screen geöffnet wird erreicht
 ![bsp onevent1](Bilder.exe/onevent1.PNG)
 ![bsp setscreen](Bilder.exe/setscreen.PNG)
 
-Sobald ein Event geschieht (onEvent) wird eine Funktion aufgerufen (hier function(event)) (grün). Das bei dieser in Klammern stehende *(event)* ist ein Argument mit Informationen über das Event, um die Informationen abzurufen kann man z.B. 'event.key' benutzen. Da diese Funktion function(event) von AppLab auomatisch aufgerufen wird, kann sie von Anfängern beim Programmieren zunächst ignoriert werden. 
+Sobald ein Event geschieht (onEvent) wird eine Funktion aufgerufen (hier `function(event)`) (grün). Das bei dieser in Klammern stehende `(event)` ist ein Argument mit Informationen über das Event, um die Informationen abzurufen kann man z.B. `event.key` benutzen. Da diese Funktion `function(event)` von AppLab auomatisch aufgerufen wird, kann sie von Anfängern beim Programmieren zunächst ignoriert werden. 
 
 Die soeben gezeigte Programmierung zum Öffnen neuer Screens muss man bei allen Buttons auf dem Startscreen und dem Fuchsland Screen durchführen. Dazu sollte man die jeweiligen Anfangsscreens der verschiedenen Ebenen im Voraus designen.
 
@@ -251,22 +251,16 @@ Nun werden die erstellten Funktionen durch die folgenden Blocks als Befehle ausg
 
 ## Das Quiz programmieren <a name="Quiz"></a>
 
-##### Die Fragen
+Das Quiz basiert hauptsächlich auf `on(event)...` + `setScreen` Blocks. Je nach gewählter Antwort wird der entsprechende Screen (falsch/richtig) geöffnet.
+Zudem wird direkt am Anfang im ersten methodhead (`if "Quiz2Frage"`) die Variable *score2* definiert, sodass bei Wahl der richtigen Antwort mithilfe des Blocks `score2 = score2 + 1` ein Punkt zum Score hinzugerechnet wird.
 
-![bsp quizcode1](Bilder.exe/quizcode1.PNG)
 
-
-##### Programmierung des Scores
-
+![bsp quizcode1](Bilder.exe/quizcode1.PNG) 
 
 ![bsp quizcode2](Bilder.exe/quizcode2.PNG)
 
-
 ![bsp quizcode3](Bilder.exe/quizcode3.PNG)
 
-BILD VON ENDEQUIZ DESIGN
-
- 
 
 ## Weitere Screens <a name="weitere"></a>
 
