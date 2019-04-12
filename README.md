@@ -122,7 +122,7 @@ Das Spiel beginnt mit dem Startscreen, von dem man durch einen Button zum eigent
 So wird auch hier zuerst die Variable *timer* definiert und erhält den Wert 20 (Sekunden).   
 Mit der Initialisierung des Screens *Clicker* wird dann der Timer aktiviert...1000.. und wird mit `timer-1` so programmiert, dass die Uhr rückwärts läuft und durch den Block `setText "timer" = timer` für den Spieler sichtbar ist.
  
-Der Block `(if) timer==0` lässt den nächsten Block erst ausführen, wenn die Bedingung `x==y` true, also erfüllt ist. Ist der Timer auf 0 Sekunden abgelaufen, werden die Variablen score, lives und timer wieder auf ihre Anfangswerte festgelegt, der Timer gestoppt und der Screen *verloren* erscheint.
+Der Operator `(if) timer==0` lässt den nächsten Befehl erst ausführen, wenn die Bedingung `x==y` true, also erfüllt ist. Ist der Timer auf 0 Sekunden abgelaufen, werden die Variablen score, lives und timer wieder auf ihre Anfangswerte festgelegt, der Timer gestoppt und der Screen *verloren* erscheint.
  
  
 ![bsp spielcode1](Bilder.exe/spielcode1.PNG)
