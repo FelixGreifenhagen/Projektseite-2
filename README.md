@@ -242,6 +242,8 @@ Als nächstes folgt ein Statement-Block, also `if (...)`. Zusätzlich gibt es dr
 
 Die zweite eigene Funktion heißt *check* und beinhaltet die Variablen *fuchs*, *image1*, *image2*, *screen*, *point1* und *point2*. Mit der gesamten Funktion wird programmiert, was passiert wenn der Fuchs auf welchem Screen welches Bild (*image1* oder *image2*) berührt und wie viele Punkte (1 oder 2 Punkte) daraufhin dem Score hinzugerechnet werden. 
 
+![bsp check](Bilder.exe/check.png)
+
 ![bsp testcode3](Bilder.exe/testcode3.PNG)
 
 Nun werden die erstellten Funktionen durch die folgenden Blocks als Befehle ausgeführt, indem man die Funktionen wie Variablen einfügt.
