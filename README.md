@@ -58,7 +58,6 @@ Der Spieler hat die Möglichkeit das Wuiz zu wiederholen oder zum "Fuchsland" zu
 
 
 ![bsp test3](Bilder.exe/test3.PNG)
-
 ![bsp test1fertig](Bilder.exe/test1fertig.PNG)
 
 
@@ -79,7 +78,6 @@ Mit folgender Tabelle kann der Spieler schauen wie er abgeschnitten hat und sein
 Anschließend hat er die Möglichkeit ins Fuchsland zurückzukehren oder sich sieben Tipps anzeigen zu lassen, wie er persönlich mehr für den Klimaschutz machen kann. 
 
 ![bsp testEnde](Bilder.exe/testEnde.PNG)
-
 ![bsp tipps](Bilder.exe/tipps.PNG)
 
 ### Die Spielebene <a name="spiel"></a>
