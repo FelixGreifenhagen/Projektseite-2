@@ -194,22 +194,23 @@ Zunächst sollten zusätzlich zu dem bereits erstellten Startscreen der Spielebe
 
 Das Spiel beginnt mit dem Startscreen *Spiel1* , der eine if-Schleife bildet. Nur wenn der Screen aufgerufen wird ist die Bedingung erfüllt, die Vorraussetzung für alle Blöcke in der if-Schleife ist.  Von dem Screen *Spiel1* gelangt man durch einen Button zum eigentlichen SpielScreen *Clicker* . (siehe Programmierung bei: erste Schritte) 
 
-Mit dem Anklicken des Buttons *startbs* werden außerdem die Textlabels score, lives und timer benannt und mit einer später noch definierten Variable gleichgesetzt, sodass wenn sich diese später auf dem Screen *Clicker* verändert der ensprechende Wert in den Textlabels angezeigt wird. Gleichzeitig wird *Clicker* durch den Befehl `setScreen Clicker`  initialisiert.
-
-    Bei diesem Programm bzw. der App ist es wichtig, Variablen zu definieren, 
-    bevor sie in den eigentlichen Blocks verwendet werden.
+Mit dem Anklicken des Buttons *startbs* werden außerdem die Textlabels score, lives und timer benannt und mit einer später noch definierten Variable gleichgesetzt (z.B. `setText "lives", lives;`), sodass wenn sich diese später auf dem Screen *Clicker* verändert der ensprechende Wert in den Textlabels angezeigt wird. Gleichzeitig wird *Clicker* durch den Befehl `setScreen Clicker`  initialisiert.
     
 So wird auch hier zuerst die Variable *timer* definiert und erhält den Wert 20 (Sekunden). 
-Damit der Timer korrekt funktioniert wird ein TimeLoop erstellt, in den KLammern steht die Zahl 1000 für 1000ms = 1 Sekunde, die Einheit in der der Timer laufen soll. 
+Damit der Timer korrekt funktioniert wird ein TimeLoop erstellt, in den Klammern steht die Zahl 1000 für 1000ms = 1 Sekunde, die Einheit in der der Timer laufen soll. 
 Mit der Initialisierung des Screens *Clicker* wird dann der Timer aktiviert und wird mit `timer-1` so programmiert, dass die 20 Sekunden rückwärts ablaufen und durch den Block `setText "timer" = timer` für den Spieler sichtbar sind.
  
-Der comparison operator `(if) timer==0` lässt den nächsten Befehl erst ausführen, wenn der Timer auf 0 abgelaufen ist und die Bedingung somit true, also erfüllt ist. Ist der Timer auf 0 Sekunden abgelaufen, werden durch die bedingende if-Schleife die Variablen score, lives und timer wieder auf ihre Anfangswerte zurückgesetzt (durch z.B. `score=0`, der Timer gestoppt durch `stopTimedLoop`und der Screen *verloren* erscheint.
+Der comparison operator `(if) timer==0` lässt den nächsten Befehl erst ausführen, wenn der Timer auf 0 abgelaufen ist und die Bedingung somit true, also erfüllt ist. Ist der Timer auf 0 Sekunden abgelaufen, werden durch die bedingende if-Schleife die Variablen score, lives und timer wieder auf ihre Anfangswerte zurückgesetzt (durch z.B. `score=0`), der Timer gestoppt durch `stopTimedLoop`und der Screen *verloren* erscheint.
  
  
 ![bsp spielcode1](Bilder.exe/spielcode1.PNG)
 ![bsp verloren](Bilder.exe/verloren.PNG)
 
-Die Programmierung für den Screen *Clicker* ist ähnlich. Auch hier wird der Text für lives und score festgelegt und diese zusätzlich noch definiert. Hinzu kommt, dass die Plastikflasche mit dem Block `setPosition (Müll), randomNumber(x,y)...` so programmiert wird, dass sie nach jedem Klick eine zufällige Position auf dem Bildschirm einnimmt. 
+Die Programmierung für den Screen *Clicker* ist ähnlich. Auch dieser Screen bildet eine if-Schleife. Hier werden die Variablen *score* und *lives* definiert, welche bereits zuvor beim Timer zur Verwendung kamen. Auch werden die Anfangswerte von diesen Variablen bestimmt mit z.B. `lives=3`. 
+
+Auch hier wird der Text für lives und score festgelegt.  
+
+Hinzu kommt, dass die Plastikflasche mit dem Block `setPosition (Müll), randomNumber(x,y)...` so programmiert wird, dass sie nach jedem Klick eine zufällige Position auf dem Bildschirm einnimmt. 
 
 Auch hier wird wieder der true/false-Block `score==10`benutzt. Dementsprechend werden die folgenden Befehle erst ausgeführt, wenn der Spieler 10 Mal auf die Flasche geklickt hat und damit einen Score von 10 hat. Mit dieser erfüllten Bedingung wird der Screen *gewonnen* initialisiert, der Timer gestoppt und die Werte von score, lives und timer zurückgesetzt
 
