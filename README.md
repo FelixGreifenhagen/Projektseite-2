@@ -14,7 +14,6 @@
   * [Erste Schritte](#erste)
   * [Das Spiel programmieren](#Spiel)
   * [Den Test programmieren](#Test)
-    * [Die Fragen](#Fragen1)
   * [Das Quiz programmieren](#Quiz)
   * [Weitere Screens](#weitere)
 
@@ -149,8 +148,8 @@ Auf dem *verloren*- und *gewonnen*-Screen sind Buttons programmiert, die mit dem
 
 ![bsp testcode1](Bilder.exe/testcode1.PNG)
 
-![bsp addtestcode2](Bilder.exe/addtestcode2.PNG)
-![bsp add2testcode2](Bilder.exe/add2testcode2.PNG)
+    ![bsp addtestcode2](Bilder.exe/addtestcode2.PNG)
+    ![bsp add2testcode2](Bilder.exe/add2testcode2.PNG)
 
 ![bsp testcode2](Bilder.exe/testcode2.PNG)
 
@@ -158,7 +157,6 @@ Auf dem *verloren*- und *gewonnen*-Screen sind Buttons programmiert, die mit dem
 
 ![bsp testcode4](Bilder.exe/testcode4.PNG)
 
-###### Die Fragen <a name="Fragen1"></a>
 
 ## Das Quiz programmieren <a name="Quiz"></a>
 
