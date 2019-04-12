@@ -175,12 +175,15 @@ Trotzdem sollte schon ab Erstellen des ersten Screens jedes Objekt sinnvoll bena
 Zunächst sollten der Startscreen der App und der Fuchsland-Screen in der Designebene konstruiert werden. Neben dem Ästhetischen sind hierbei die auf den Bildern erkennbaren Buttons von besonderer Bedeutung, welche mit Drag & Drop eingefügt werden können.
 Durch den Befehl *setScreen* wird der Startscreen beim Starten der App aufgerufen. 
 Sobald in einer Programmierung eine Aktion ausgeführt werden soll, wird dies als „Event“ (deutsch: Ereignis) bezeichnet. Aus diesem Grund werden Aktionen in AppLab mit dem Befehl *onEvent* eingeleitet.
+
 Dass durch das Klicken auf einen Button ein neuer Screen geöffnet wird erreicht man somit durch folgende Befehle: 
 
 ![bsp onevent1](Bilder.exe/onevent1.PNG)
 ![bsp setscreen](Bilder.exe/setscreen.PNG)
 
-Dies muss man mit allen Buttons auf dem Startscreen und dem Fuchsland Screen machen. Dazu sollte man die jeweiligen Anfangsscreens der verschiedenen Ebenen im Voraus designen.
+Sobald ein Event geschieht (onEvent) wird eine Funktion aufgerufen (hier function(event)) (grün). Das bei dieser in Klammern stehende *(event)* ist ein Argument mit Informationen über das Event, um die Informationen abzurufen kann man z.B. 'event.key' benutzen. Da diese Funktion function(event) von AppLab auomatisch aufgerufen wird, kann sie von Anfängern beim Programmieren zunächst ignoriert werden. 
+
+Die soeben gezeigte Programmierung zum Öffnen neuer Screens muss man bei allen Buttons auf dem Startscreen und dem Fuchsland Screen durchführen. Dazu sollte man die jeweiligen Anfangsscreens der verschiedenen Ebenen im Voraus designen.
 
 SCREEN
 
