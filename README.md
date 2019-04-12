@@ -35,6 +35,8 @@ Man erreicht die verschiedenen Ebenen der App von dem Screen aus, der das "Fuchs
 
 (BILD VON QUIZ FRAGE1, FFRAGE 1 UND RICHTIG) = 3 BILDER
 
+![bsp quizfrage1fertig](Bilder.exe/quizfrage1fertig.PNG)
+
 ![bsp quiz1](Bilder.exe/quiz1.png)
 
 Die Quizebene testet das Wissen des Nutzers über den Klimawandel.
