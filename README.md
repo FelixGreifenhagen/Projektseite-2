@@ -8,9 +8,9 @@
 ## Inhaltsverzeichnis
 
 * [Projektvorstellung](#projekt)
-  * [Die Quizebene](#quiz)
-  * [Die Testebene](#test)
-  * [Die Spielebene](#spiel)
+  * [Die Quizebene](#quiz2)
+  * [Die Testebene](#test2)
+  * [Die Spielebene](#spiel2)
   * [Die Intention der App](#Intention)
 * [Die App selber programmieren](#dssp)
   * [App Lab - Code.org](#al)
@@ -31,7 +31,7 @@ Man erreicht die verschiedenen Ebenen der App von dem Screen aus, der das "Fuchs
 
 ![bsp fuchslandNeu](Bilder.exe/fuchslandNeu.PNG)
 
-### Die Quizebene <a name="quiz"></a>
+### Die Quizebene <a name="quiz2"></a>
 
 ![bsp quiz1](Bilder.exe/quiz1.png)
 ![bsp quizfrage1fertig](Bilder.exe/quizfrage1fertig.PNG)
@@ -54,7 +54,7 @@ Der Spieler hat die Möglichkeit das Wuiz zu wiederholen oder zum "Fuchsland" zu
 
 ![bsp übersicht](Bilder.exe/übersicht.PNG)
 
-### Die Testebene <a name="test"></a>
+### Die Testebene <a name="test2"></a>
 
 
 ![bsp test3](Bilder.exe/test3.PNG)
@@ -80,7 +80,7 @@ Anschließend hat er die Möglichkeit ins Fuchsland zurückzukehren oder sich si
 ![bsp testEnde](Bilder.exe/testEnde.PNG)
 ![bsp tipps](Bilder.exe/tipps.PNG)
 
-### Die Spielebene <a name="spiel"></a>
+### Die Spielebene <a name="spiel2"></a>
 
 ![bsp spiel1](Bilder.exe/spiel1.PNG)
 
@@ -177,7 +177,8 @@ Durch den Befehl *setScreen* wird der Startscreen beim Starten der App aufgerufe
 Sobald in einer Programmierung eine Aktion ausgeführt werden soll, wird dies als „Event“ (deutsch: Ereignis) bezeichnet. Aus diesem Grund werden Aktionen in AppLab mit dem Befehl *onEvent* eingeleitet.
 Dass durch das Klicken auf einen Button ein neuer Screen geöffnet wird erreicht man somit durch folgende Befehle: 
 
-SCREEN
+![bsp onevent1](Bilder.exe/onevent1.PNG)
+![bsp setscreen](Bilder.exe/setscreen.PNG)
 
 Dies muss man mit allen Buttons auf dem Startscreen und dem Fuchsland Screen machen. Dazu sollte man die jeweiligen Anfangsscreens der verschiedenen Ebenen im Voraus designen.
 
