@@ -185,7 +185,7 @@ Sobald ein Event geschieht (onEvent) wird eine Funktion aufgerufen (hier functio
 
 Die soeben gezeigte Programmierung zum Öffnen neuer Screens muss man bei allen Buttons auf dem Startscreen und dem Fuchsland Screen durchführen. Dazu sollte man die jeweiligen Anfangsscreens der verschiedenen Ebenen im Voraus designen.
 
-SCREEN
+![bsp blocksevent](Bilder.exe/blocksevent.PNG)
 
 
 ## Das Spiel programmieren <a name="Spiel"></a>
