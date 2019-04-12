@@ -255,6 +255,8 @@ Das Quiz basiert hauptsächlich auf `on(event)...` + `setScreen` Blocks. Je nach
 Zudem wird direkt am Anfang im ersten methodhead (`if "Quiz2Frage"`) die Variable *score2* definiert, sodass bei Wahl der richtigen Antwort mithilfe des Blocks `score2 = score2 + 1` ein Punkt zum Score hinzugerechnet wird.
 
 
+
+
 ![bsp quizcode1](Bilder.exe/quizcode1.PNG) 
 
 ![bsp quizcode2](Bilder.exe/quizcode2.PNG)
