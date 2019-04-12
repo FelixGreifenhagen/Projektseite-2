@@ -168,11 +168,25 @@ Bei Code.org kann man so viele verschiedene Screens erstellen wie man möchte un
 
 ## Erste Schritte <a name="erste"></a>
 
-Zunächst muss ein neues Projekt gestartet werden. Bevor man mit dem Programmieren beginnt, sollte einem das allgemeine Konzept der App bereits bewusst sein. Generell hat Code.org den Vorteil, dass das Projekt, die Screens und alle Objekte wie Buttons, Labels und TextAreas zu jeder Zeit umbenannt werden können, was große Flexibilität ermöglicht, falls man neue Ideen bekommt oder Korrekturen vornehmen möchte.
+Zunächst muss ein neues Projekt erstellt werden. Bevor man mit dem Programmieren beginnt, sollte einem das allgemeine Konzept der App bereits bewusst sein. Generell hat Code.org den Vorteil, dass das Projekt, die Screens und alle Objekte wie Buttons, Labels und TextAreas zu jeder Zeit umbenannt werden können, was große Flexibilität ermöglicht, falls man neue Ideen bekommt oder Korrekturen vornehmen möchte.
 
 Trotzdem sollte schon ab Erstellen des ersten Screens jedes Objekt sinnvoll benannt werden. Das verschafft Übersicht, sobald die Programmierung komplexer wird und ist auch für eventuelle Nachahmer nachvollziehbarer.
 
+Zunächst sollten der Startscreen der App und der Fuchsland-Screen in der Designebene konstruiert werden. Neben dem Ästhetischen sind hierbei die auf den Bildern erkennbaren Buttons von besonderer Bedeutung, welche mit Drag & Drop eingefügt werden können.
+Durch den Befehl *setScreen* wird der Startscreen beim Starten der App aufgerufen. 
+Sobald in einer Programmierung eine Aktion ausgeführt werden soll, wird dies als „Event“ (deutsch: Ereignis) bezeichnet. Aus diesem Grund werden Aktionen in AppLab mit dem Befehl * onEvent* eingeleitet.
+Dass durch das Klicken auf einen Button ein neuer Screen geöffnet wird erreicht man somit durch folgende Befehle: 
+
+SCREEN
+
+Dies muss man mit allen Buttons auf dem Startscreen und dem Fuchsland Screen machen. Dazu sollte man die jeweiligen Anfangsscreens der verschiedenen Ebenen im Voraus designen.
+
+SCREEN
+
+
 ## Das Spiel programmieren <a name="Spiel"></a>
+
+Zunächst sollten zusätzlich zu dem bereits erstellten Startscreen der Spielebene der eigentliche Spielscreen (hier: „Clicker“), ein Verloren-Screen und ein Gewonnen-Screen designt werden. (siehe Fotos oben)
 
 Das Spiel beginnt mit dem Startscreen, von dem man durch einen Button zum eigentlichen Spiel gelangt. Mit dem Anklicken des Buttons *startbs* werden außerdem die Textlabels score, lives und timer benannt und definiert, sodass auf dem Screen *Clicker* diese durch bestimmte Ereignisse sich wie Variablen verhalten und geändert werden können. Gleichzeitig wird *Clicker*  initialisiert.
 
