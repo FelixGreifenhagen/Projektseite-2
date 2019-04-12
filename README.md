@@ -146,7 +146,7 @@ Auf dem *verloren*- und *gewonnen*-Screen sind Buttons programmiert, die mit dem
 
 ## Den Test programmieren <a name="Test"></a>
 
-Die folgende Blockkombination legt fest, dass bei der Initialisierung vom Screen *test1* die Variable *score3* definiert und den Wert 0 erhält:
+Die folgende Blockkombination legt fest, dass bei der Initialisierung vom Screen *test1* die Variable *score3* definiert und den Wert 0 erhält. Dieser Score zeigt später durch das *label130* auf screen *testEnde* die Gesamtpunktzahl an.
 
 ![bsp testcode1](Bilder.exe/testcode1.PNG)
 
@@ -156,10 +156,12 @@ Für die nächsten, etwas aufwendigeren Programmierungen muss die Funktion von d
 
 Mit dem ersten kann man seine eigene Funktion aus mehreren Parametern erstellen, sie benennen und sie damit definieren (define). Gerade bei längeren Befehlen ist der Block also praktisch. Denn sobald man sie benannt hat, kann man diese mithilfe des zwieten blocks `myfunction(id)` bei anderen Blocks wie `if (id)`oder `onEvent(id)`einfügen, wo sie durch dieses Aufrufen (call) ausgeführt werden. So haben wird auch den größte Teil des Tests programmiert.
 
-Die erste eigene Funktion heißt *movef* und beeihnhaltet die Parameter zur Steuerung des Fuchses. Hier werden die Variablen *xVel* und *yVel*, also die x- und y-Werte auf dem Koordinatensystem, definiert und gleich 0 gesetzt. 
-Als nächstes folgt ein Statement-Block, also `if (...)`. Zusätzlich gibt es drei weitere `else if (...)`Befehle bzw. Bedingungen. Wird die Pfeiltaste nach oben auf der Tastatur gedrückt und damit die Bedingung `if (event.key==up)`wahr (true), wird der Befehl `yVel = -5`ausgeführt: Der Fuchs bewegt sich um 5 y-Einheiten vertikal aufwärts. Wird hingegen die Pfeiltaste nach rechts gedrückt, sind alle anderen 3 Bedingungen falsch (false) und die Bedingung `if (event.key==right)`wahr, wird der x-Wert vom Fuchs um 5 x-Einheiten nach rechts verändert. Um die Steuerung aber möglich zu machen, muss mithilde des letzten Blocks noch einmal festgelegt werden, dass die Position des Fuchses um diesen neu definierten x-/y-Wert ( `getXPosition (fuchs) + xVel/yVel` ) verändert wird.
+Die erste eigene Funktion heißt *movef* und beinhaltet die Parameter zur Steuerung des Fuchses. Hier werden die Variablen *xVel* und *yVel*, also die x- und y-Werte auf dem Koordinatensystem, definiert und gleich 0 gesetzt. 
+Als nächstes folgt ein Statement-Block, also `if (...)`. Zusätzlich gibt es drei weitere `else if (...)`Befehle bzw. Bedingungen. Wird die Pfeiltaste nach oben auf der Tastatur gedrückt und damit die Bedingung `if (event.key==up)`wahr (true), wird der Befehl `yVel = -5`ausgeführt: Der Fuchs bewegt sich um 5 y-Einheiten vertikal aufwärts. Wird hingegen die Pfeiltaste nach rechts gedrückt, sind die anderen 3 Bedingungen falsch (false) und die Bedingung `if (event.key==right)`wahr, wird der x-Wert vom Fuchs um 5 x-Einheiten nach rechts verändert. Um die Steuerung möglich zu machen, muss mithilfe des letzten Blocks noch einmal festgelegt werden, dass die Position des Fuchses um diesen neu definierten x-/y-Wert ( `getXPosition (fuchs) + xVel/yVel` ) verändert wird.
 
 ![bsp testcode2](Bilder.exe/testcode2.PNG)
+
+Die zweite eigene Funktion heißt *check* und beinhaltet die Variablen *fuchs*, *image1*, *image2*, *screen*, *point1* und *point2*. Mit der gesamten Funktion wird programmiert, was passiert wenn der Fuchs auf welchem Screen welches Bild (*image1* oder *image2*) berührt und wie viele Punkte (1 oder 2 Punkte) daraufhin dem Score hinzugerechnet werden. 
 
 ![bsp testcode3](Bilder.exe/testcode3.PNG)
 
