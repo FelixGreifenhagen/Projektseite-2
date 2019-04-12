@@ -208,9 +208,9 @@ Der comparison operator `(if) timer==0` lässt den nächsten Befehl erst ausfüh
 
 Die Programmierung für den Screen *Clicker* ist ähnlich. Auch dieser Screen bildet eine if-Schleife. Hier werden die Variablen *score* und *lives* definiert, welche bereits zuvor beim Timer zur Verwendung kamen. Auch werden die Anfangswerte von diesen Variablen bestimmt mit z.B. `lives=3`. 
 
-Auch hier wird der Text für lives und score festgelegt.  
+Hinzu kommt, dass sobald die Plastikflasche angeklickt wird ( `onEvent "MÜll" click`) mit dem Block `setPosition (Müll), randomNumber(x,y)...` programmiert wird, dass sie nach jedem Klick eine zufällige Position auf dem Bildschirm einnimmt. 
 
-Hinzu kommt, dass die Plastikflasche mit dem Block `setPosition (Müll), randomNumber(x,y)...` so programmiert wird, dass sie nach jedem Klick eine zufällige Position auf dem Bildschirm einnimmt. 
+Jedes Mal wenn die Flasche angeklickt wird, wird der Score durch den Befehl `score = score + 1` um einen Punkt erhöht.
 
 Auch hier wird wieder der true/false-Block `score==10`benutzt. Dementsprechend werden die folgenden Befehle erst ausgeführt, wenn der Spieler 10 Mal auf die Flasche geklickt hat und damit einen Score von 10 hat. Mit dieser erfüllten Bedingung wird der Screen *gewonnen* initialisiert, der Timer gestoppt und die Werte von score, lives und timer zurückgesetzt
 
