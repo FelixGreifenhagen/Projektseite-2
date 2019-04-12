@@ -192,7 +192,7 @@ Die soeben gezeigte Programmierung zum Öffnen neuer Screens muss man bei allen 
 
 Zunächst sollten zusätzlich zu dem bereits erstellten Startscreen der Spielebene der eigentliche Spielscreen (hier: „Clicker“), ein Verloren-Screen und ein Gewonnen-Screen designt werden. (siehe Fotos oben)
 
-Das Spiel beginnt mit dem Startscreen, von dem man durch einen Button zum eigentlichen Spiel gelangt. Mit dem Anklicken des Buttons *startbs* werden außerdem die Textlabels score, lives und timer benannt und definiert, sodass auf dem Screen *Clicker* diese durch bestimmte Ereignisse sich wie Variablen verhalten und geändert werden können. Gleichzeitig wird *Clicker*  initialisiert.
+Das Spiel beginnt mit dem Startscreen, von dem man durch einen Button zum eigentlichen Spiel gelangt.(siehe Programmierung bei: erste Schritte) Mit dem Anklicken des Buttons *startbs* werden außerdem die Textlabels score, lives und timer benannt und mit einer später noch definierten Variable gleichgesetzt, sodass wenn sich diese später auf dem Screen *Clicker* verändert der ensprechende Wert in den Textlabels angezeigt wird. Gleichzeitig wird *Clicker*  initialisiert.
 
    
     Bei diesem Programm bzw. der App ist es wichtig, Variablen zu definieren, 
