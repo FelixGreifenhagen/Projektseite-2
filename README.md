@@ -192,16 +192,18 @@ Die soeben gezeigte Programmierung zum Öffnen neuer Screens muss man bei allen 
 
 Zunächst sollten zusätzlich zu dem bereits erstellten Startscreen der Spielebene der eigentliche Spielscreen (hier: „Clicker“), ein Verloren-Screen und ein Gewonnen-Screen designt werden. (siehe Fotos oben)
 
-Das Spiel beginnt mit dem Startscreen, von dem man durch einen Button zum eigentlichen Spiel gelangt.(siehe Programmierung bei: erste Schritte) Mit dem Anklicken des Buttons *startbs* werden außerdem die Textlabels score, lives und timer benannt und mit einer später noch definierten Variable gleichgesetzt, sodass wenn sich diese später auf dem Screen *Clicker* verändert der ensprechende Wert in den Textlabels angezeigt wird. Gleichzeitig wird *Clicker*  initialisiert.
+Das Spiel beginnt mit dem Startscreen *Spiel1* , der eine if-Schleife bildet. Nur wenn der Screen aufgerufen wird ist die Bedingung erfüllt, die Vorraussetzung für alle Blöcke in der if-Schleife ist.  Von dem Screen *Spiel1* gelangt man durch einen Button zum eigentlichen SpielScreen *Clicker* . (siehe Programmierung bei: erste Schritte) 
 
-   
+Mit dem Anklicken des Buttons *startbs* werden außerdem die Textlabels score, lives und timer benannt und mit einer später noch definierten Variable gleichgesetzt, sodass wenn sich diese später auf dem Screen *Clicker* verändert der ensprechende Wert in den Textlabels angezeigt wird. Gleichzeitig wird *Clicker* durch den Befehl `setScreen Clicker`  initialisiert.
+
     Bei diesem Programm bzw. der App ist es wichtig, Variablen zu definieren, 
     bevor sie in den eigentlichen Blocks verwendet werden.
     
-So wird auch hier zuerst die Variable *timer* definiert und erhält den Wert 20 (Sekunden).   
-Mit der Initialisierung des Screens *Clicker* wird dann der Timer aktiviert...1000.. und wird mit `timer-1` so programmiert, dass die Uhr rückwärts läuft und durch den Block `setText "timer" = timer` für den Spieler sichtbar ist.
+So wird auch hier zuerst die Variable *timer* definiert und erhält den Wert 20 (Sekunden). 
+Damit der Timer korrekt funktioniert wird ein TimeLoop erstellt, in den KLammern steht die Zahl 1000 für 1000ms = 1 Sekunde, die Einheit in der der Timer laufen soll. 
+Mit der Initialisierung des Screens *Clicker* wird dann der Timer aktiviert und wird mit `timer-1` so programmiert, dass die 20 Sekunden rückwärts ablaufen und durch den Block `setText "timer" = timer` für den Spieler sichtbar sind.
  
-Der Operator `(if) timer==0` lässt den nächsten Befehl erst ausführen, wenn die Bedingung `x==y` true, also erfüllt ist. Ist der Timer auf 0 Sekunden abgelaufen, werden die Variablen score, lives und timer wieder auf ihre Anfangswerte festgelegt, der Timer gestoppt und der Screen *verloren* erscheint.
+Der comparison operator `(if) timer==0` lässt den nächsten Befehl erst ausführen, wenn der Timer auf 0 abgelaufen ist und die Bedingung somit true, also erfüllt ist. Ist der Timer auf 0 Sekunden abgelaufen, werden durch die bedingende if-Schleife die Variablen score, lives und timer wieder auf ihre Anfangswerte zurückgesetzt (durch z.B. `score=0`, der Timer gestoppt durch `stopTimedLoop`und der Screen *verloren* erscheint.
  
  
 ![bsp spielcode1](Bilder.exe/spielcode1.PNG)
