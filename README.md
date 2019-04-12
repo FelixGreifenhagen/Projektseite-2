@@ -252,12 +252,13 @@ Innerhalb der zweiten Funktion sind zwei größere if-Schleifen erkennbar. Die e
 In der ersten if-Schleife ist zunächst eine orange umrandete Blockkombination erkennbar. Sie bezieht sich auf die Weite *width* des Fuchses.
 In der ersten if-Schleife ist eine weitere if-Schleife verschachtelt. Die dort drin liegende orangene Blockkombination bezieht sich auf die Höhe *height* des Fuchses.
 Mit beiden orangenen Blockkombinationen wird programmiert, dass die Koordinaten des Fuchses mit dem des *image1* teilweise übereinstimmen müssen, damit ein weiterer, folgender Befehl ausgeführt werden kann.
-Die teilweise Übereinstimmung der Koordinaten von Fuchs und Bild bedeutet, dass der Fuchs das Bild beim Spielen berührt.
+Teilweise übereinstimmende Koordinaten von Fuchs und Bild bedeuten, dass der Fuchs das Bild beim Spielen berührt.
 
 Programmiert wird dies durch zwei mathemathische Ungleichungen, welche mit dem And-Operator *&&* miteinander verknüpft werden.
-Diesen nennt man auch *boolean operator*. `(...>... && ... < ...)`
+Diesen nennt man auch *boolean operator*. `(...>... && ... < ...)`Nur wenn links und rechts des boolean operators beide Bedingungen true (=erfüllt) sind, wird der nächste Befehl ausgeführt. 
 
-
+Der Befehl `getXposition(fuchs) + getProperty(fuchs, "width")/2` links vom boolean operator bedeutet, dass der mittlere x-Wert des Fuchses größer als der x- Wert des Bildes  `getXPosition(image1)` sein muss.
+Zusätzlich muss die Bedingung rechts vom boolean operator erfüllt sein, 
 
 ![bsp check](Bilder.exe/check.png)
 
