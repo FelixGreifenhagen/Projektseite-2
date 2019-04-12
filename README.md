@@ -21,7 +21,9 @@
 ## Projektvorstellung <a name="projekt"></a>
 
 Bei dem Projekt "Fuchsland" handelt es sich um eine App, die mit App Lab-Code.org erstellt wurde. 
+
 Die App besteht aus drei Ebenen, einer Spiel-, einer Quiz- und einer Testebene, die unabhängig voneinander gespielt werden können. Die gesamte App dreht sich um das Thema Klimaschutz und Klimawandel, damit der Nutzer auch etwas beim Benutzen der App lernt. 
+
 Man erreicht die verschiedenen Ebenen der App von dem Screen (siehe oben) aus, der das "Fuchsland" darstellt. Ein Fuchs begleitet den Nutzer durch die App und taucht an verschiedenen Stellen in unterschiedlichen Ebenen auf. 
 
 ### Die Quizebene
@@ -32,8 +34,10 @@ Man erreicht die verschiedenen Ebenen der App von dem Screen (siehe oben) aus, d
 
 Die Quizebene testet das Wissen des Nutzers über den Klimawandel.
 In diesem Teil der App gibt es zehn Fragen zum Klimawandel mit jeweils drei Antwortmöglichkeiten, wovon der Nutzer eine anklicken und durch das Klicken auf "Weiter" einloggen kann. 
+
 Bei falscher bzw. richtiger Antwort wird man zu einem entsprechenden Screen weitergeleitet, auf dem man einen passenden Erklärtext bzw. Ergänzungen zur richtigen Antwort findet. Von dort aus kann man zur nächsten Frage weitergehen. 
 Nach jeder Antwort wird dem Spieler direkt angezeigt, ob er richtig oder falsch geantwortet hat. 
+
 Am Ende des Quizzes bekommt er zusätzlich eine Übersicht, die die Anzahl der richtigen und falschen Antworten anzeigt. 
 Der Spieler hat die Möglichkeit das Wuiz zu wiederholen oder zum "Fuchsland" zurückzukehren. 
 
@@ -48,11 +52,13 @@ Der Test besteht aus sieben verschiedenen Fragen mit jeweils zwei Antwortmöglic
 Auf dem Screen einer Testfrage befinden sich neben der Frage selber die Antwortmöglichkeiten in Form von Bildern. 
 Das Besondere ist der kleine Fuchs am unteren Rand jedes Screens. Er lässt sich mit den Pfeiltasten der Tastatur auf das jeweilige Bild steuern, welches der Spieler als Antwort wählen möchte.
 Erreicht der Mittelpunkt des Fuchses das jeweilige Bild, wird die Antwort eingeloggt und der Spieler gelangt zu der nächsten Frage. 
+
 Pro Screen gibt es eine Antwort, die vorbildlich und gut für das Klima ist, die andere Antwort hingegen schadet unserer Umwelt.
 Für den Spieler unsichtbar wird je nach ausgewählter Antwort eine unterschiedliche Punkteanzahl zu einem Score addiert. 
 Ist die Antwort des Spielers gut für das Klima, so bekommt er für diese null Punkte. 
 Steuert der Spieler den Fuchs auf die Antwort, die schädlich für unser Klima ist, so werden ein oder zwei Punkte zu dem Score hinzu addiert. 
 Dies ist abhängig davon wie stark die Antwort unserem Klima schadet. Flugzeuge beispielsweise sind sehr schädlich für unsere Umwelt, deshalb gibt das Einloggen des Flugzeuges zwei Punkte.
+
 Nach den sieben Fragen wird dem Spieler sein ereichter Score angezeigt. Je niedriger dieser ist, desto besser ist das Engagement des Spielers für den Umweltschutz. 
 Mit folgender Tabelle kann der Spieler schauen wie er abgeschnitten hat und sein Ergebnis einstufen. 
 Anschließend hat er die Möglichkeit ins Fuchsland zurückzukehren oder sich sieben Tipps anzeigen zu lassen, wie er persönlich mehr für den Klimaschutz machen kann. 
@@ -64,6 +70,7 @@ Anschließend hat er die Möglichkeit ins Fuchsland zurückzukehren oder sich si
 
 In der Spielebene wird der Spieler virtuell aktiv gegen den Klimawandel. Er hilft Müll in Form von Plastikflaschen von einer Wiese aufzusammeln. 
 Dazu muss der Spieler innerhalb von 20 Sekunden so oft wie möglich auf eine Plastikflasche klicken, die nach jedem KLick ihre Position zufällig ändert. 
+
 Am oberen Rand des Screens wird die Anzahl der bereits angeklickten Flaschen angezeigt.
 Der Timer wird am unteren Rand des Screens mitgezählt, sodass der Spieler weiß, wie viel Zeit ihm noch bleibt.
 Außerdem hat man während eines Spiels drei Leben, klickt man versehentlich neben die Flasche (und damit auf den Hintergrund) verliert man ein Leben.
