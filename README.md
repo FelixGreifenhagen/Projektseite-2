@@ -57,11 +57,10 @@ Der Spieler hat die Möglichkeit das Wuiz zu wiederholen oder zum "Fuchsland" zu
 ### Die Testebene <a name="test"></a>
 
 
+![bsp test3](Bilder.exe/test3.PNG)
+
 ![bsp test1fertig](Bilder.exe/test1fertig.PNG)
 
-
-
-(BILD VON Test1
 
 Die Testebene dient dazu, dass der Spieler sein eigenes Verhalten reflektiert und herausfindet,ob er bereits genug für den Klimaschutz tut.
 Der Test besteht aus sieben verschiedenen Fragen mit jeweils zwei Antwortmöglichkeiten. 
@@ -81,7 +80,7 @@ Anschließend hat er die Möglichkeit ins Fuchsland zurückzukehren oder sich si
 
 ![bsp testEnde](Bilder.exe/testEnde.PNG)
 
-
+![bsp tipps](Bilder.exe/tipps.PNG)
 
 ### Die Spielebene <a name="spiel"></a>
 
