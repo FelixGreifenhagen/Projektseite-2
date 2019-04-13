@@ -238,36 +238,38 @@ Für die nächsten, etwas aufwendigeren Programmierungen muss bekannt sein, wie 
 Mit dem ersten kann man seine eigene Funktion aus mehreren Parametern erstellen, sie benennen und sie damit definieren (define). Gerade bei längeren Befehlen ist der Block also praktisch. Denn sobald man die Funktion benannt hat, kann man diese mithilfe des zweiten Blocks `myfunction(id)` bei anderen Blocks wie `if (id)`oder `onEvent(id)`einfügen, wo sie durch dieses Aufrufen (call) ausgeführt werden. So wurde auch der größte Teil der Testebene programmiert.
 
 Die erste eigene Funktion heißt *movef* und beinhaltet die Parameter zur Steuerung des Fuchses. Hier werden die Variablen *xVel* und *yVel*, also die x- und y-Werte auf dem Koordinatensystem, definiert und gleich 0 gesetzt. 
-Als nächstes folgt ein Statement-Block, also `if (...)`. Dieser ist verknüpft mit drei weiteren `else if (...)`Befehlen bzw. Bedingungen. Wird die Pfeiltaste nach oben auf der Tastatur gedrückt und damit die Bedingung `if (event.key==up)`wahr (true), wird der Befehl `yVel = -5`ausgeführt: Der Fuchs bewegt sich um 5 y-Einheiten vertikal aufwärts. 
+Als nächstes folgt ein Statement-Block: `if (...)`. Dieser ist verknüpft mit drei weiteren `else if (...)`Befehlen bzw. Bedingungen. 
 
-Wird hingegen die Pfeiltaste nach rechts gedrückt, sind die anderen 3 Bedingungen falsch (false) und die Bedingung `if (event.key==right)`wahr, wird der x-Wert vom Fuchs um 5 x-Einheiten nach rechts verändert. Um die Steuerung möglich zu machen, muss mithilfe des letzten Blocks noch einmal festgelegt werden, dass die Position des Fuchses um diesen neu definierten x-/y-Wert ( `getXPosition (fuchs) + xVel/yVel` ) verändert wird.
+Wird die Pfeiltaste nach oben auf der Tastatur gedrückt und damit die Bedingung `if (event.key==up)`wahr (true), wird der Befehl `yVel = -5`ausgeführt: Der Fuchs bewegt sich um 5 y-Einheiten vertikal aufwärts. 
+Wird hingegen die Pfeiltaste nach rechts gedrückt, sind die anderen 3 Bedingungen falsch (false) und die Bedingung `if (event.key==right)`wahr, wird der x-Wert vom Fuchs um 5 x-Einheiten nach rechts verändert. 
+
+Um die Steuerung möglich zu machen, muss mithilfe des letzten Blocks noch einmal festgelegt werden, dass die Position des Fuchses um den neuen x-/y-Wert ( `getXPosition (fuchs) + xVel/yVel` ) verändert wird.
 
 ![bsp testcode2](Bilder.exe/testcode2.PNG)
 
-Die zweite eigene Funktion heißt *check* und beinhaltet die Variablen *fuchs*, *image1*, *image2*, *screen*, *point1* und *point2*. Mit der gesamten Funktion wird programmiert, was passiert wenn der Fuchs auf welchem Screen welches Bild (*image1* oder *image2*) berührt und wie viele Punkte (0, 1 oder 2 Punkte) daraufhin dem Score hinzugerechnet werden. 
+Die zweite eigene Funktion heißt *check* und beinhaltet die Variablen *fuchs*, *image1*, *image2*, *screen*, *point1* und *point2*. Mit der gesamten Funktion wird programmiert, was passiert, wenn der Fuchs auf welchem Screen welches Bild (*image1* oder *image2*) berührt und wie viele Punkte (0, 1 oder 2 Punkte) daraufhin dem Score hinzugerechnet werden. 
 
 Innerhalb der zweiten Funktion sind zwei größere if-Schleifen erkennbar. Die erste if-Schleife bezieht sich auf *image1* und die zweite auf *image2*.
 
-In der ersten if-Schleife ist zunächst eine orange umrandete Blockkombination erkennbar. Sie bezieht sich auf die Weite *width* des Fuchses.
-In der ersten if-Schleife ist eine weitere if-Schleife verschachtelt. Die dort drin liegende orangene Blockkombination bezieht sich auf die Höhe *height* des Fuchses.
-Mit beiden orangenen Blockkombinationen wird programmiert, dass die Koordinaten des Fuchses (der Mittelpunkt) mit einem Punkt des *image1* übereinstimmen muss, damit ein weiterer, folgender Befehl ausgeführt werden kann.
-Stimmt der Mittelpunkt des Fuchses mit den Koordinaten des Bildes überein bedeutet das, dass der Fuchs das Bild beim Spielen berührt.
+In der ersten if-Schleife ist zunächst eine orange umrandete Blockkombination erkennbar. Sie bezieht sich auf die Weite *width* des Fuchses und des Bildes.
+In der ersten if-Schleife ist eine weitere if-Schleife verschachtelt. Die dort drin liegende orangene Blockkombination bezieht sich auf die Höhe *height* des Fuchses und des Bildes.
+Mit beiden orangenen Blockkombinationen wird programmiert, dass die Koordinaten des Fuchses bzw. der Mittelpunkt mit einem Punkt des *image1* übereinstimmen muss, damit ein weiterer, folgender Befehl ausgeführt werden kann.
+Stimmt der Mittelpunkt des Fuchses mit den Koordinaten des Bildes überein, bedeutet das, dass der Fuchs das Bild beim Betätigen der App berührt.
 
 Programmiert wird dies durch zwei mathemathische Ungleichungen, welche mit dem And-Operator *&&* miteinander verknüpft werden.
-Diesen nennt man auch *boolean operator*. `(...>... && ... < ...)`Nur wenn links und rechts des boolean operators beide Bedingungen true (=erfüllt) sind, wird der nächste Befehl ausgeführt. 
+Diesen nennt man auch *boolean operator*. `(...>... && ... < ...)` Nur wenn links und rechts des boolean operators beide Bedingungen true (=erfüllt) sind, wird der nächste Befehl ausgeführt. 
 
 Der Befehl `getXposition(fuchs) + getProperty(fuchs, "width")/2` links vom boolean operator bedeutet, dass der mittlere x-Wert des Fuchses größer als der eine x- Wert des Bildes  `getXPosition(image1)` sein muss.
 Zusätzlich muss die Bedingung rechts vom boolean operator erfüllt sein, d.h. der mittlere x-Wert des Fuchses muss kleiner als der andere x-Wert des Bildes sein.
-Der mittlere x-Wert des Fuchses muss sich somit zwischen dem linken und dem rechten äußeren x-Wert von *image* 1 befinden, damit die Bedingung erfüllt ist.  
+Der mittlere x-Wert des Fuchses muss sich somit zwischen dem linken und dem rechten äußeren x-Wert von *image1* (der Breite des Bildes) befinden, damit die Bedingung erfüllt ist.  
 
 Die orange Blockkombination, die sich auf die Höhe "hidth" des Fuchses bezieht ist gleich aufgebaut und sagt aus, dass der mittlere y-Wert des Fuchses zwischen dem unteren und oberen y-Wert des Bildes liegen muss.
 
 Sind diese beiden Bedingungen erfüllt, berührt der Fuchs also das *image1*, wird zu dem bereits zu Beginn der Testebene definierten *Score3* mit `Score3 = Score3 + point1` ein Punkt hinzugerechnet.
 Außerdem wird wenn die Bedingungen erfüllt sind ein neuer Screen initialisiert. ( `setScreen (screen)`)
-Des Weiteren wird der Fuchs durch `setPosition (fuchs, 120, 340)`auf seine Ursprungskoordinaten zurückgesetzt, damit das wiederholte Durchlaufen der Testebene keine Fehler bereitet.
+Des Weiteren wird der Fuchs durch `setPosition (fuchs, 120, 340)`auf seine Ursprungskoordinaten zurückgesetzt, damit das wiederholte Durchlaufen der Testebene keine Schwierigkeiten bereitet.
 
-
-Die zweite größere if-Schleife in der Funktion *check* wird genauso wie die erste programmiert, allerdings beziehen sich die x- und y- Werte hier auf *image2*. Dadurch dass ein anderes Bild berührt wird, wird ein unterschiedlicher Punktwert hinzugerechnet. ( `Score3 = Score3 + point2`)
+Die zweite größere if-Schleife in der Funktion *check* wird genauso wie die erste programmiert, allerdings beziehen sich die x- und y- Werte hier auf *image2*. Dadurch, dass ein anderes Bild berührt wird, wird ein unterschiedlicher Punktwert hinzugerechnet. ( `Score3 = Score3 + point2`)
 
 ![bsp check](Bilder.exe/check.png)
 
@@ -279,7 +281,7 @@ Besipielsweise bei dem Screen Test1: `movef ("F", event)`und `check ("F", "image
 Wird somit *image33* berührt, werden 0 Punkte zu dem Score addiert, wird hingegen *image35* berührt, werden 2 Punkte zu dem Score hinzugefügt.
 Bei den folgenden sechs Screens der Testebene müssen nur die IDs der Objekte ausgetauscht werden.
 
-Die letzten Blocks der Testebene programmieren den Endscreen des Test, von dem man durch das Betätigen verschiedener Buttons entweder zuück zum Fuchsland kehren kann oder sich vorerst noch einen Screen mit Tipps für einen selber anschauen kann.
+Die letzten Blocks der Testebene programmieren den Endscreen des Test, von dem man durch das Betätigen verschiedener Buttons entweder zuück zum Fuchsland kehren kann oder sich vorerst noch einen Screen mit Tipps anschauen kann.
 Der *Score3* wird wieder auf seinen Ursprungswert zurückgesetzt. 
 
 ![bsp testcode4](Bilder.exe/testcode4.PNG)
