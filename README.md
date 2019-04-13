@@ -294,7 +294,7 @@ Jede der zehn Fragen bildet eine eigene if-Schleife.
 
 Zudem wird direkt am Anfang in der ersten If-Schleife (`if "Quiz2Frage1"`) die Variable *score2* definiert, sodass bei Wahl der richtigen Antwort mithilfe des Blocks `score2 = score2 + 1` ein Punkt zum Score hinzugerechnet wird.
 
-Zudem wird direkt am Anfang in der ersten If-Schleife (`if "Quiz2Frage1"`) die Variable *score2* definiert, sodass bei Wahl der richtigen Antwort mithilfe des Blocks `score2 = score2 + 1` ein Punkt zum Score hinzugerechnet wird.
+![bsp quizcode1](Bilder.exe/quizcode1.PNG) 
 
 Der Score wird dem Spieler jedoch erst am Ende angezeigt, da die Labels *richtig* bzw. *falsch* mit dem Score gleichgesetzt werden. `setText ("richtig", "Richtig: " + score2)`  und  `setText ("falsch", "Falsch: " + (10 - score2))`
 Durch diese Programmierung werden hinter *Richtig:* die erreichten Punkte angezeigt. Da es insgesamt 10 Fragen gibt und somit maximal 10 erreichbare Punkte, ist die Anzahl der falsch beantworteten Fragen automatisch die Differenz von 10 und der erreichten Punktzahl. 
@@ -302,14 +302,17 @@ Durch diese Programmierung werden hinter *Richtig:* die erreichten Punkte angeze
 Am Ende des Quizzes wird *Score2* wieder auf den Anfangswert 0 zurückgesetzt.
 
 
-
-![bsp quizcode1](Bilder.exe/quizcode1.PNG) 
-
 ![bsp quizcode2](Bilder.exe/quizcode2.PNG)
+
 
 ![bsp quizcode3](Bilder.exe/quizcode3.PNG)
 
 
+Sobald der Screen *EndeQuiz* mit einer if-Schleife initialsiert wird, hat der Spieler durch verschiedenen Buttons die Möglichkeit das Quiz zu wiederholen oder zum Fuchsland zurückzukehren.
+
+Nun sollte es möglich sein die Enstehung und den Aufbau der App "Fuchsland" nachvollziehen zu können.
+
+Viel Erfolg beim selber Programmieren dieser App. :)
 
 
 
