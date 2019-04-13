@@ -23,7 +23,7 @@
 
 ## Projektvorstellung <a name="projekt"></a>
 
-Bei dem Projekt "Fuchsland" handelt es sich um eine App, die mit App Lab-Code.org erstellt wurde. 
+Bei dem Projekt "Fuchsland" handelt es sich um eine App, die mit AppLab-Code.org erstellt wurde. 
 
 Die App besteht aus drei Ebenen, einer Spiel-, einer Quiz- und einer Testebene, die unabhängig voneinander gespielt werden können. Die gesamte App dreht sich um das Thema Klimaschutz und Klimawandel, damit der Nutzer auch etwas beim Benutzen der App lernt. 
 
@@ -50,7 +50,7 @@ Bei falscher bzw. richtiger Antwort wird man zu einem entsprechenden Screen weit
 Nach jeder Antwort wird dem Spieler direkt angezeigt, ob er richtig oder falsch geantwortet hat. 
 
 Am Ende des Quizzes bekommt er zusätzlich eine Übersicht, die die Anzahl der richtigen und falschen Antworten anzeigt. 
-Der Spieler hat die Möglichkeit das Wuiz zu wiederholen oder zum "Fuchsland" zurückzukehren. 
+Der Spieler hat die Möglichkeit das Quiz zu wiederholen oder zum "Fuchsland" zurückzukehren. 
 
 ![bsp übersicht](Bilder.exe/übersicht.PNG)
 
@@ -61,7 +61,7 @@ Der Spieler hat die Möglichkeit das Wuiz zu wiederholen oder zum "Fuchsland" zu
 ![bsp test1fertig](Bilder.exe/test1fertig.PNG)
 
 
-Die Testebene dient dazu, dass der Spieler sein eigenes Verhalten reflektiert und herausfindet,ob er bereits genug für den Klimaschutz tut.
+Die Testebene dient dazu, dass der Spieler sein eigenes Verhalten reflektiert und herausfindet, ob er bereits genug für den Klimaschutz tut.
 Der Test besteht aus sieben verschiedenen Fragen mit jeweils zwei Antwortmöglichkeiten. 
 Auf dem Screen einer Testfrage befinden sich neben der Frage selber die Antwortmöglichkeiten in Form von Bildern. 
 Das Besondere ist der kleine Fuchs am unteren Rand jedes Screens. Er lässt sich mit den Pfeiltasten der Tastatur auf das jeweilige Bild steuern, welches der Spieler als Antwort wählen möchte.
@@ -71,11 +71,11 @@ Pro Screen gibt es eine Antwort, die vorbildlich und gut für das Klima ist, die
 Für den Spieler unsichtbar wird je nach ausgewählter Antwort eine unterschiedliche Punkteanzahl zu einem Score addiert. 
 Ist die Antwort des Spielers gut für das Klima, so bekommt er für diese null Punkte. 
 Steuert der Spieler den Fuchs auf die Antwort, die schädlich für unser Klima ist, so werden ein oder zwei Punkte zu dem Score hinzu addiert. 
-Dies ist abhängig davon wie stark die Antwort unserem Klima schadet. Flugzeuge beispielsweise sind sehr schädlich für unsere Umwelt, deshalb gibt das Einloggen des Flugzeuges zwei Punkte.
+Dies ist abhängig davon, wie stark die Antwort unserem Klima schadet. Flugzeuge beispielsweise sind sehr schädlich für unsere Umwelt, deshalb gibt das Einloggen des Flugzeuges zwei Punkte.
 
-Nach den sieben Fragen wird dem Spieler sein ereichter Score angezeigt. Je niedriger dieser ist, desto besser ist das Engagement des Spielers für den Umweltschutz. 
+Nach den sieben Fragen wird dem Spieler sein erreichter Score angezeigt. Je niedriger dieser ist, desto besser ist das Engagement des Spielers für den Umweltschutz. 
 Mit folgender Tabelle kann der Spieler schauen wie er abgeschnitten hat und sein Ergebnis einstufen. 
-Anschließend hat er die Möglichkeit ins Fuchsland zurückzukehren oder sich sieben Tipps anzeigen zu lassen, wie er persönlich mehr für den Klimaschutz machen kann. 
+Anschließend hat er die Möglichkeit, ins Fuchsland zurückzukehren oder sich sieben Tipps anzeigen zu lassen, wie er persönlich mehr für den Klimaschutz machen kann. 
 
 ![bsp testEnde](Bilder.exe/testEnde.PNG)
 ![bsp tipps](Bilder.exe/tipps.PNG)
@@ -85,12 +85,12 @@ Anschließend hat er die Möglichkeit ins Fuchsland zurückzukehren oder sich si
 ![bsp spiel1](Bilder.exe/spiel1.PNG)
 
 In der Spielebene wird der Spieler virtuell aktiv gegen den Klimawandel. Er hilft Müll in Form von Plastikflaschen von einer Wiese aufzusammeln. 
-Dazu muss der Spieler innerhalb von 20 Sekunden so oft wie möglich auf eine Plastikflasche klicken, die nach jedem KLick ihre Position zufällig ändert. 
+Dazu muss der Spieler innerhalb von 20 Sekunden so oft wie möglich auf eine Plastikflasche klicken, die nach jedem Klick ihre Position zufällig ändert. 
 
 Am oberen Rand des Screens wird die Anzahl der bereits angeklickten Flaschen angezeigt.
 Der Timer wird am unteren Rand des Screens mitgezählt, sodass der Spieler weiß, wie viel Zeit ihm noch bleibt.
-Außerdem hat man während eines Spiels drei Leben, klickt man versehentlich neben die Flasche (und damit auf den Hintergrund) verliert man ein Leben.
-Die Anzahl der noch vorhandenen Leben wird ebenfalls am oberern Rand des Screens angezeigt.
+Außerdem hat man während eines Spiels drei Leben, klickt man versehentlich neben die Flasche (und damit auf den Hintergrund), verliert man ein Leben.
+Die Anzahl der noch vorhandenen Leben wird ebenfalls am oberen Rand des Screens angezeigt.
 
 ![bsp spiel2](Bilder.exe/spiel2.PNG)
 
@@ -105,8 +105,8 @@ Wenn man aber nach den 20 Sekunden weniger als 10 Klicks geschafft hat oder alle
 ## Die Intention der App <a name="Intention"></a>
 
 Mit der App "Fuchsland" sollen der Spaß beim Spielen und das Erweitern des Wissens über das Thema Klimawandel miteinender vereint werden. Das Spiel soll somit zum Lernen motivieren, aber auch das Bewusstsein dafür stärken, in welcher aktuellen Lage die Erde steckt und somit auch wir Menschen. 
-Die Spieler lernt außerdem, inwiefern sein eigenes Verhalten den Klimawandel beeinflusst und wie er sich selber für unser KLima einsetzen kann. 
-Durch den Spaß in der Spielebene und das virtuelle Aufsammeln von Müll dort könnte der Spieler auch unterbewuust dazu animiert werden, ebenfalls in der realen Welt keinen Müll in die Ladschaft zu werfen oder den von fremden Menschen aufzusammeln. 
+Die Spieler lernt außerdem, inwiefern sein eigenes Verhalten den Klimawandel beeinflusst und wie er sich selber für unser Klima einsetzen kann. 
+Durch den Spaß in der Spielebene und das virtuelle Aufsammeln von Müll dort könnte der Spieler auch unterbewusst dazu animiert werden, ebenfalls in der realen Welt keinen Müll in die Landschaft zu werfen oder den von fremden Menschen aufzusammeln. 
 
 Die Hauptzielgruppe der App "Fuchsland" sind Kinder zwischen sieben und sechzehn. 
 Das liegt maßgeblich daran, dass das der Design der Appp auf diese Altersgruppe wahrscheinlich sehr ansprechend wirkt und Kinder in dem Alter oft noch wenig wissen über den Klimaschutz haben und so besonders viel lernen können.  
@@ -130,13 +130,13 @@ AppLab ist online frei zugänglich, vor der ersten Anwendung muss man sich mit s
 Das Programmieren auf Code.org basiert auf Java Script, ist aber durch die Blocks, die sinnvoll zusammengefügt werden müssen, relativ einfach zu handhaben und somit auch für Anfänger geeignet. 
 Dadurch, dass Code.org auf viele Sprachen eingestellt werden kann, kann man bei Verständnisschwierigkeiten auch beispielsweise auf Deutsch programmieren. 
 
-Ein Code.org-Projekt teilt sich in drei Ebenen auf, den Code-, Design- und den Data-Editor. Letzterer kann genutzt werden um Daten wie Highscores außerhalb der App zu speichern, bei dem Erstellen der Fuchsland - App wurde er jedoch nicht benötigt.
+Ein Code.org-Projekt teilt sich in drei Ebenen auf, den Code-, Design- und den Data-Editor. Letzterer kann genutzt werden um Daten wie Highscores außerhalb der App zu speichern, bei dem Erstellen der Fuchsland-App wurde er jedoch nicht benötigt.
 
 ### Der Code-Editor:
 
 ![bsp code2](Bilder.exe/code2.PNG)
 
-Auf AppLab kann man sich im Code- Editor den Code in zwei verschiedenen Formen anzeigen lassen und zwischen diesen jederzeit wechseln. Es gibt die Anzeige in Block-Form und die Anzeige in Text-Form.
+Auf AppLab kann man sich im Code-Editor den Code in zwei verschiedenen Formen anzeigen lassen und zwischen diesen jederzeit wechseln. Es gibt die Anzeige in Block-Form und die Anzeige in Text-Form.
 
 In dem Blockform kann man per Drag and Drop verschiedene Blocks aus den unterschiedlichen Kategorien der Toolbox auf die rechts liegende Arbeitsfläche ziehen. 
 Die Blocks kann man je nach Ziel der Programmierung miteinander kombinieren, durch die spezifischen Formen der Blocks wird einem gezeigt, an welchen Stellen man bestimmte Befehle in andere einbetten muss und wo dies nicht möglich ist.  
@@ -201,7 +201,6 @@ Damit der Timer korrekt funktioniert wird ein TimeLoop erstellt, in den Klammern
 Mit der Initialisierung des Screens *Clicker* wird dann der Timer aktiviert und wird mit `timer-1` so programmiert, dass die 20 Sekunden rückwärts ablaufen und durch den Block `setText "timer" = timer` für den Spieler sichtbar sind.
  
 Der comparison operator `(if) timer==0` lässt den nächsten Befehl erst ausführen, wenn der Timer auf 0 abgelaufen ist und die Bedingung somit true, also erfüllt ist. Ist der Timer auf 0 Sekunden abgelaufen, werden durch die bedingende if-Schleife die Variablen score, lives und timer wieder auf ihre Anfangswerte zurückgesetzt (durch z.B. `score=0`), der Timer gestoppt durch `stopTimedLoop`und der Screen *verloren* erscheint.
- 
  
 ![bsp spielcode1](Bilder.exe/spielcode1.PNG)
 ![bsp verloren](Bilder.exe/verloren.PNG)
