@@ -306,6 +306,7 @@ Am Ende des Quizzes wird *Score2* wieder auf den Anfangswert 0 zurückgesetzt.
 ![bsp quizcode1](Bilder.exe/quizcode1.PNG) 
 
 ![bsp quizcode2](Bilder.exe/quizcode2.PNG)
+
 ![bsp quizcode3](Bilder.exe/quizcode3.PNG)
 
 
