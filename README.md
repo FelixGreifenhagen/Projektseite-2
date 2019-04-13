@@ -18,7 +18,7 @@
   * [Das Spiel programmieren](#Spiel)
   * [Den Test programmieren](#Test)
   * [Das Quiz programmieren](#Quiz)
-  * [Weitere Screens](#weitere)
+ 
 
 
 ## Projektvorstellung <a name="projekt"></a>
@@ -288,20 +288,28 @@ Der *Score3* wird wieder auf seinen Ursprungswert zurückgesetzt.
 
 ## Das Quiz programmieren <a name="Quiz"></a>
 
-Das Quiz basiert hauptsächlich auf `on(event)...` + `setScreen` Blocks. Je nach gewählter Antwort wird der entsprechende Screen (falsch/richtig) geöffnet.
-Zudem wird direkt am Anfang im ersten methodhead (`if "Quiz2Frage"`) die Variable *score2* definiert, sodass bei Wahl der richtigen Antwort mithilfe des Blocks `score2 = score2 + 1` ein Punkt zum Score hinzugerechnet wird.
+Das Quiz basiert hauptsächlich auf `onEvent...` + `setScreen` Blocks. Je nach gewählter Antwort wird der entsprechende Screen (unterschiedlich bei falschen und richtigen Antworten) mit den Erklärtexten geöffnet.
 
+Jede der zehn Fragen bildet eine eigene if-Schleife. 
+
+Zudem wird direkt am Anfang in der ersten If-Schleife (`if "Quiz2Frage1"`) die Variable *score2* definiert, sodass bei Wahl der richtigen Antwort mithilfe des Blocks `score2 = score2 + 1` ein Punkt zum Score hinzugerechnet wird.
+
+Zudem wird direkt am Anfang in der ersten If-Schleife (`if "Quiz2Frage1"`) die Variable *score2* definiert, sodass bei Wahl der richtigen Antwort mithilfe des Blocks `score2 = score2 + 1` ein Punkt zum Score hinzugerechnet wird.
+
+Der Score wird dem Spieler jedoch erst am Ende angezeigt, da die Labels *richtig* bzw. *falsch* mit dem Score gleichgesetzt werden. `setText ("richtig", "Richtig: " + score2)`  und  `setText ("falsch", "Falsch: " + (10 - score2))`
+Durch diese Programmierung werden hinter *Richtig:* die erreichten Punkte angezeigt. Da es insgesamt 10 Fragen gibt und somit maximal 10 erreichbare Punkte, ist die Anzahl der falsch beantworteten Fragen automatisch die Differenz von 10 und der erreichten Punktzahl. 
+
+Am Ende des Quizzes wird *Score2* wieder auf den Anfangswert 0 zurückgesetzt.
 
 
 
 ![bsp quizcode1](Bilder.exe/quizcode1.PNG) 
 
 ![bsp quizcode2](Bilder.exe/quizcode2.PNG)
-
 ![bsp quizcode3](Bilder.exe/quizcode3.PNG)
 
 
-## Weitere Screens <a name="weitere"></a>
+
 
 
 
